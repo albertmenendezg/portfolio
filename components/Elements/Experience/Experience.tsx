@@ -31,7 +31,7 @@ const Experience = () => {
           <ul>
             {
               experiences.map(({companyName, fromDate, toDate, description}) =>
-                <li className='mb-5'>
+                <li className='mb-5' key={companyName}>
                   <h2 className='text-3xl font-bold'>{companyName}</h2>
                   <h3 className='pl-5 text-2xl'>{moment(fromDate).format('MM/YYYY')} - {toDate ? moment(toDate).format('MM/YYYY') : 'Currently working'}</h3>
                   <p className='pl-5 mt-2'>
