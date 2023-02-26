@@ -16,7 +16,7 @@ const index: NextPage = () => {
       </Head>
       <main className='bg-gray-800 w-full min-h-screen px-4 text-white'>
         <Navbar />
-        <div className='px-24 flex flex-col'>
+        <div className='md:px-24 flex flex-col'>
           <Home />
           <About />
           <Skills />

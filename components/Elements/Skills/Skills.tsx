@@ -7,7 +7,7 @@ const Skills = () => {
       <div className='w-full'>
         <h1 className='text-5xl text-red-500 font-medium'>What are my skills?</h1>
         <div className='mt-5 flex flex-wrap'>
-          <div className='w-1/2 px-4 pt-2'>
+          <div className='w-full md:w-1/2 px-4 pt-2'>
             <h2 className='text-4xl text-center'>Frontend</h2>
             <Skill label='HTML' percent={80} />
             <Skill label='CSS3' percent={75} />
@@ -16,7 +16,7 @@ const Skills = () => {
             <Skill label='REACT' percent={85} />
             <Skill label='NEXTJS' percent={80} />
           </div>
-          <div className='w-1/2 px-4 pt-2'>
+          <div className='w-full md:w-1/2 px-4 pt-2'>
             <h2 className='text-4xl text-center'>Backend</h2>
             <Skill label='NODE' percent={85} />
             <Skill label='PHP' percent={100} />
@@ -26,7 +26,7 @@ const Skills = () => {
             <Skill label='Express.js' percent={90} />
             <Skill label='Typescript' percent={90} />
           </div>
-          <div className='w-1/2 px-4 pt-2'>
+          <div className='w-full md:w-1/2 px-4 pt-2'>
             <h2 className='text-4xl text-center'>DevOps</h2>
             <Skill label='GIT' percent={90} />
             <Skill label='AWS' percent={65} />
@@ -35,7 +35,7 @@ const Skills = () => {
             <Skill label='DOCKER' percent={75} />
             <Skill label='RABBITMQ' percent={80} />
           </div>
-          <div className='w-1/2 px-4 pt-2'>
+          <div className='w-full md:w-1/2 px-4 pt-2'>
             <h2 className='text-4xl text-center'>Software Patterns</h2>
             <Skill label='DDD' percent={90} />
             <Skill label='HEXAGONAL' percent={90} />
