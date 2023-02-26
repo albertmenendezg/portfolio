@@ -1,8 +1,12 @@
 import { NextPage } from 'next'
 import Head from 'next/head'
-import Nav from '../components/Nav'
+import Navbar from '../components/Elements/Navbar/Navbar'
+import Experience from '../components/Elements/Experience/Experience';
+import Home from '../components/Elements/Home/Home';
+import Skills from '../components/Elements/Skills/Skills';
+import About from '../components/Elements/About/About';
 
-const Home: NextPage = () => {
+const index: NextPage = () => {
   return (
     <>
       <Head>
@@ -10,20 +14,17 @@ const Home: NextPage = () => {
         <meta name="description" content="Albert Menéndez Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <section className='min-h-screen'>
-          <Nav />
-          <div>
-            <h2>Albert Menéndez González</h2>
-            <h3>Software Developer</h3>
-            <p>
-              Freelancer provinding services for programming needs. Join me below and let's get in touch!
-            </p>
-          </div>
-        </section>
+      <main className='bg-gray-800 w-full min-h-screen px-4 text-white'>
+        <Navbar />
+        <div className='px-24 flex flex-col'>
+          <Home />
+          <About />
+          <Skills />
+          <Experience />
+        </div>
       </main>
     </>
   )
 }
 
-export default Home
+export default index

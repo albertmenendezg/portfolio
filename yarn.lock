@@ -127,6 +127,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-scroll@^1.8.6":
+  "integrity" "sha512-aMTiNgcmA7dwn1yjoHsiL78RfRnKCXzFyMbv63VrZTXloSfNePBdKtVObC3/My6irwDf0Oz0U4VjEC/vrv6/9w=="
+  "resolved" "https://registry.npmjs.org/@types/react-scroll/-/react-scroll-1.8.6.tgz"
+  "version" "1.8.6"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@18.0.28":
   "integrity" "sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew=="
   "resolved" "https://registry.npmjs.org/@types/react/-/react-18.0.28.tgz"
@@ -1472,6 +1479,11 @@
   "resolved" "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz"
   "version" "4.6.2"
 
+"lodash.throttle@^4.1.1":
+  "integrity" "sha512-wIkUCfVKpVsWo3JSZlc+8MB5it+2AN5W8J7YVMST30UrvcQNZ1Okbj+rbVniijTWE6FGYy4XJq/rHkas8qJMLQ=="
+  "resolved" "https://registry.npmjs.org/lodash.throttle/-/lodash.throttle-4.1.1.tgz"
+  "version" "4.1.1"
+
 "loose-envify@^1.1.0", "loose-envify@^1.4.0":
   "integrity" "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q=="
   "resolved" "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
@@ -1510,6 +1522,11 @@
   "integrity" "sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA=="
   "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz"
   "version" "1.2.8"
+
+"moment@^2.29.4":
+  "integrity" "sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w=="
+  "resolved" "https://registry.npmjs.org/moment/-/moment-2.29.4.tgz"
+  "version" "2.29.4"
 
 "ms@^2.1.1":
   "integrity" "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA=="
@@ -1800,7 +1817,7 @@
   "resolved" "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz"
   "version" "1.2.1"
 
-"prop-types@^15.8.1":
+"prop-types@^15.7.2", "prop-types@^15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -1824,7 +1841,7 @@
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
 
-"react-dom@^18.2.0", "react-dom@18.2.0":
+"react-dom@^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react-dom@^18.2.0", "react-dom@>=18.0.0", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -1842,7 +1859,20 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react@*", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.2.0":
+"react-scroll@^1.8.9":
+  "integrity" "sha512-9m7ztraiX/l6L7erzYAD3fhnveNckei6/NkWfqwN2e0FRdoE2W6Pk4oi2Nah7mWpPCPAeIgegfaqZACTimPOwg=="
+  "resolved" "https://registry.npmjs.org/react-scroll/-/react-scroll-1.8.9.tgz"
+  "version" "1.8.9"
+  dependencies:
+    "lodash.throttle" "^4.1.1"
+    "prop-types" "^15.7.2"
+
+"react-simple-typewriter@^5.0.1":
+  "integrity" "sha512-vA5HkABwJKL/DJ4RshSlY/igdr+FiVY4MLsSQYJX6FZG/f1/VwN4y1i3mPXRyfaswrvI8xii1kOVe1dYtO2Row=="
+  "resolved" "https://registry.npmjs.org/react-simple-typewriter/-/react-simple-typewriter-5.0.1.tgz"
+  "version" "5.0.1"
+
+"react@*", "react@^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=18.0.0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
