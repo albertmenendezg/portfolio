@@ -11,7 +11,7 @@ const Skills = () => {
             <h2 className='text-4xl text-center'>Frontend</h2>
             <Skill label='HTML' percent={80} />
             <Skill label='CSS3' percent={75} />
-            <Skill label='TAILWIND' percent={80} />
+            <Skill label='TAILWIND' percent={85} />
             <Skill label='JAVASCRIPT' percent={95} />
             <Skill label='REACT' percent={85} />
             <Skill label='NEXTJS' percent={80} />

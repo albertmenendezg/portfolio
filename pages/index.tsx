@@ -12,7 +12,6 @@ const index: NextPage = () => {
       <Head>
         <title>Albert Menéndez Portfolio</title>
         <meta name="description" content="Albert Menéndez Portfolio" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='bg-gray-800 w-full min-h-screen px-4 text-white'>
         <Navbar />
