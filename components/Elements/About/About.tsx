@@ -11,7 +11,7 @@ const About = () => {
             <Image 
                 src={logo}
                 alt='Albert Menéndez'
-                className='p-24 rounded-full'
+                className='p-24 rounded-full h-full w-auto'
             />
         </div>
         <div className='md:w-1/2 h-100'>
