@@ -40,12 +40,12 @@ export const experience = [
 export const skills = {
   languages: ["Java", "JavaScript", "TypeScript", "Go", "Python", "PHP"],
   frameworks: ["SpringBoot", "Node.js", "NestJS", "React", "Next.js", "Symfony"],
-  databases: ["MySQL", "PostgreSQL", "Redis", "MongoDB"],
+  databases: ["MySQL", "PostgresSQL", "Redis", "MongoDB"],
   devops: ["Docker", "Kubernetes", "AWS", "GCP", "Terraform", "GitLab CI", "GitHub Actions", "Bitbucket pipelines"],
-  tools: ["Git", "GitHub", "GitLab", "Bitbucket", "Jira", "Trello", "Postman", "Swagger"],
+  tools: ["Postman", "Swagger", "Dbeaver", "Jetbrains", "Jira", "Trello"],
   testing: ["JUnit", "Jest", "Mockito", "Cucumber", "PHPUnit"],
-  methodologies: ["Domain Driven Design", "Hexagonal Architecture", "Event Driven Architecture", "Agile/Scrum"],
-  other: ["Linux", "Grafana", "RabbitMQ", "Kafka"]
+  architectures: [ "Microservices", "Domain Driven Design", "Hexagonal Architecture", "Event Driven Architecture"],
+  other: ["Git", "GitHub", "GitLab", "Bitbucket", "Linux", "Grafana", "RabbitMQ", "Kafka"]
 };
 
 export const certifications = [

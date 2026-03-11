@@ -15,7 +15,7 @@ const skillCategoriesKeys = [
   { key: "devops", items: skills.devops, color: "text-orange-400", bg: "bg-orange-500/10", icon: Cloud },
   { key: "tools", items: skills.tools, color: "text-pink-400", bg: "bg-pink-500/10", icon: Wrench },
   { key: "testing", items: skills.testing, color: "text-yellow-400", bg: "bg-yellow-500/10", icon: TestTube2 },
-  { key: "architectures", items: skills.methodologies, color: "text-cyan-400", bg: "bg-cyan-500/10", icon: Puzzle },
+  { key: "architectures", items: skills.architectures, color: "text-cyan-400", bg: "bg-cyan-500/10", icon: Puzzle },
   { key: "other", items: skills.other, color: "text-red-400", bg: "bg-red-500/10", icon: Terminal },
 ];
 
