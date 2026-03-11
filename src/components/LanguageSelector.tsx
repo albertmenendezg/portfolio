@@ -18,7 +18,7 @@ export default function LanguageSelector() {
         <button
           key={lang.code}
           onClick={() => setLanguage(lang.code as "en" | "es")}
-          className={`px-2 py-1 text-xs font-medium rounded transition-colors ${
+          className={`px-2 py-1 text-xs font-medium rounded cursor-pointer transition-colors ${
             language === lang.code
               ? "bg-emerald-500 text-gray-900"
               : "text-gray-400 hover:text-white"
