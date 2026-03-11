@@ -24,6 +24,7 @@ This is my personal portfolio built with modern web technologies. It showcases m
 - Skills categorized by type
 - Experience timeline
 - Certifications with external links
+- **Multi-language support**: English and Spanish
 
 ## Getting Started
 
