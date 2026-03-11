@@ -1,13 +1,28 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { experienceTranslations } from "@/data/translations";
+import { experience } from "@/data/portfolio";
+import { translations } from "@/data/translations";
 import { Briefcase } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function Experience() {
   const { t, language } = useLanguage();
-  const experience = experienceTranslations[language];
+  const trans = translations[language];
+
+  const getTranslation = (key: string): string => {
+    const keys = key.split(".");
+    let result: any = trans;
+    for (const k of keys) {
+      result = result?.[k];
+    }
+    return result || key;
+  };
+
+  const getDescription = (key: string): string[] => {
+    const result = getTranslation(key);
+    return Array.isArray(result) ? result : [];
+  };
 
   const extractYears = (period: string) => {
     const match = period.match(/(\d{4})/g);
@@ -33,6 +48,8 @@ export default function Experience() {
             
             {experience.map((job, index) => {
               const year = extractYears(job.period);
+              const position = getTranslation(job.positionKey);
+
               return (
                 <motion.div
                   key={job.id}
@@ -59,13 +76,13 @@ export default function Experience() {
                     <div className="bg-gray-950 p-5 rounded-lg border border-gray-800 hover:border-emerald-400/50 transition-colors">
                       <div className="flex items-center justify-between mb-2 flex-wrap gap-2">
                         <h3 className="text-lg font-semibold text-white">
-                          {job.position}
+                          {position}
                         </h3>
                         <span className="text-emerald-400 font-mono text-sm whitespace-nowrap">{job.period}</span>
                       </div>
                       <p className="text-emerald-400 text-sm mb-3">{job.company}</p>
                       <ul className="space-y-1 mb-3">
-                        {job.description.map((desc, idx) => (
+                        {getDescription(job.descriptionKey).map((desc: string, idx: number) => (
                           <li key={idx} className="text-gray-400 text-sm flex items-start">
                             <span className="text-emerald-400 mr-2 mt-1">▹</span>
                             <span className="text-gray-300">{desc}</span>
@@ -73,7 +90,7 @@ export default function Experience() {
                         ))}
                       </ul>
                       <div className="flex flex-wrap gap-1.5">
-                        {job.tech?.map((tech) => (
+                        {job.tech?.map((tech: string) => (
                           <span
                             key={tech}
                             className="px-2 py-0.5 bg-gray-800 text-emerald-400 text-xs rounded"

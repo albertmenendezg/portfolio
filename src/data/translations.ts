@@ -28,7 +28,33 @@ export const translations = {
       projects: "Projects"
     },
     experience: {
-      title: "Experience"
+      title: "Experience",
+      nter: {
+        position: "Backend Engineer",
+        description: [
+          "Designed and developed a scalable system to automatically validate code submissions, reducing manual correction time.",
+          "Built backend microservices using Java Spring Boot with asynchronous communication via RabbitMQ.",
+          "Orchestration of containerized applications using Docker and Kubernetes.",
+          "Integrated CI/CD pipelines (GitLab) and automated infrastructure on AWS."
+        ]
+      },
+      feeder: {
+        position: "Backend Developer",
+        description: [
+          "Developed and maintained REST APIs in a microservices architecture using Spring Boot and NestJS communicated with RabbitMQ.",
+          "Migration from monolith to microservices, applying Hexagonal Architecture and DDD.",
+          "Designed and managed relational and non-relational databases (MySQL, PostgreSQL, MongoDB, Redis).",
+          "Implemented CI/CD pipelines and deployed cloud infrastructure on AWS."
+        ]
+      },
+      foxize: {
+        position: "Fullstack Developer",
+        description: [
+          "Developed and maintained a SaaS e-learning platform using Symfony (PHP).",
+          "Applied SOLID principles and improved code maintainability.",
+          "Development of frontend functionalities with HTML, CSS, and JavaScript with Twig templates."
+        ]
+      }
     },
     skills: {
       title: "Skills & Technologies",
@@ -85,7 +111,33 @@ export const translations = {
       projects: "Proyectos"
     },
     experience: {
-      title: "Experiencia"
+      title: "Experiencia",
+      nter: {
+        position: "Ingeniero Backend",
+        description: [
+          "Diseñé y desarrollé un sistema escalable para validar automáticamente envíos de código, reduciendo el tiempo de corrección manual.",
+          "Construí microservicios backend usando Java Spring Boot con comunicación asíncrona vía RabbitMQ.",
+          "Orquestación de aplicaciones containerizadas usando Docker y Kubernetes.",
+          "Integré pipelines CI/CD (GitLab) e infraestructura automatizada en AWS."
+        ]
+      },
+      feeder: {
+        position: "Desarrollador Backend",
+        description: [
+          "Desarrollé y mantuve APIs REST en arquitectura de microservicios usando Spring Boot y NestJS comunicados con RabbitMQ.",
+          "Migración de monolito a microservicios, aplicando Arquitectura Hexagonal y DDD.",
+          "Diseñé y gestioné bases de datos relacionales y no relacionales (MySQL, PostgreSQL, MongoDB, Redis).",
+          "Implementé pipelines CI/CD e infraestructura cloud en AWS."
+        ]
+      },
+      foxize: {
+        position: "Desarrollador Fullstack",
+        description: [
+          "Desarrollé y mantuve una plataforma SaaS de e-learning usando Symfony (PHP).",
+          "Apliqué principios SOLID y mejoré la mantenibilidad del código.",
+          "Desarrollo de funcionalidades frontend con HTML, CSS y JavaScript con plantillas Twig."
+        ]
+      }
     },
     skills: {
       title: "Habilidades y Tecnologías",
@@ -113,89 +165,6 @@ export const translations = {
       builtWith: "Creado por"
     }
   }
-};
-
-export const experienceTranslations = {
-  en: [
-    {
-      id: 1,
-      company: "Nter Tech Services",
-      position: "Backend Engineer",
-      period: "May 2025 - Present",
-      description: [
-        "Designed and developed a scalable system to automatically validate code submissions, reducing manual correction time.",
-        "Built backend microservices using Java Spring Boot with asynchronous communication via RabbitMQ.",
-        "Orchestration of containerized applications using Docker and Kubernetes.",
-        "Integrated CI/CD pipelines (GitLab) and automated infrastructure on AWS."
-      ],
-      tech: ["Java", "SpringBoot", "RabbitMQ", "Docker", "Kubernetes", "MiniKube", "AWS", "Python", "Git", "GitLab"]
-    },
-    {
-      id: 2,
-      company: "Feeder The Reaction SaaS",
-      position: "Backend Developer",
-      period: "Oct 2022 - Apr 2025",
-      description: [
-        "Developed and maintained REST APIs in a microservices architecture using Spring Boot and NestJS communicated with RabbitMQ.",
-        "Migration from monolith to microservices, applying Hexagonal Architecture and DDD.",
-        "Designed and managed relational and non-relational databases (MySQL, PostgreSQL, MongoDB, Redis).",
-        "Implemented CI/CD pipelines and deployed cloud infrastructure on AWS."
-      ],
-      tech: ["Spring Boot", "Java", "TypeScript", "Node.js", "NestJS", "RabbitMQ", "MySQL", "MongoDB", "Redis", "Docker", "Linux", "AWS", "Git", "BitBucket"]
-    },
-    {
-      id: 3,
-      company: "Foxize Cloud",
-      position: "Fullstack Developer",
-      period: "Sep 2021 - Oct 2022",
-      description: [
-        "Developed and maintained a SaaS e-learning platform using Symfony (PHP).",
-        "Applied SOLID principles and improved code maintainability.",
-        "Development of frontend functionalities with HTML, CSS, and JavaScript with Twig templates."
-      ],
-      tech: ["Symfony", "PHP", "Twig", "JavaScript", "MySQL", "Docker", "Linux", "HTML", "CSS", "Bootstrap", "Git", "GitLab"]
-    }
-  ],
-  es: [
-    {
-      id: 1,
-      company: "Nter Tech Services",
-      position: "Backend Engineer",
-      period: "Mayo 2025 - Actualidad",
-      description: [
-        "Diseñé y desarrollé un sistema escalable para validar automáticamente envíos de código, reduciendo el tiempo de corrección manual.",
-        "Construí microservicios backend usando Java Spring Boot con comunicación asíncrona vía RabbitMQ.",
-        "Orquestación de aplicaciones containerizadas usando Docker y Kubernetes.",
-        "Integré pipelines CI/CD (GitLab) e infraestructura automatizada en AWS."
-      ],
-      tech: ["Java", "SpringBoot", "RabbitMQ", "Docker", "Kubernetes", "MiniKube", "AWS", "Python", "Git", "GitLab"]
-    },
-    {
-      id: 2,
-      company: "Feeder The Reaction SaaS",
-      position: "Backend Developer",
-      period: "Oct 2022 - Abr 2025",
-      description: [
-        "Desarrollé y mantuve APIs REST en arquitectura de microservicios usando Spring Boot y NestJS comunicados con RabbitMQ.",
-        "Migración de monolito a microservicios, aplicando Arquitectura Hexagonal y DDD.",
-        "Diseñé y gestioné bases de datos relacionales y no relacionales (MySQL, PostgreSQL, MongoDB, Redis).",
-        "Implementé pipelines CI/CD e infraestructura cloud en AWS."
-      ],
-      tech: ["Spring Boot", "Java", "TypeScript", "Node.js", "NestJS", "RabbitMQ", "MySQL", "MongoDB", "Redis", "Docker", "Linux", "AWS", "Git", "BitBucket"]
-    },
-    {
-      id: 3,
-      company: "Foxize Cloud",
-      position: "Fullstack Developer",
-      period: "Sep 2021 - Oct 2022",
-      description: [
-        "Desarrollé y mantuve una plataforma SaaS de e-learning usando Symfony (PHP).",
-        "Apliqué principios SOLID y mejoré la mantenibilidad del código.",
-        "Desarrollo de funcionalidades frontend con HTML, CSS y JavaScript con plantillas Twig."
-      ],
-      tech: ["Symfony", "PHP", "Twig", "JavaScript", "MySQL", "Docker", "Linux", "HTML", "CSS", "Bootstrap", "Git", "GitLab"]
-    }
-  ]
 };
 
 export type Language = "en" | "es";

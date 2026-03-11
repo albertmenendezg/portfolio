@@ -1,48 +1,35 @@
 export const personalInfo = {
-  name: "Albert Menéndez González",
+  name: "Albert Menendez Gonzalez",
   email: "albertmenendezg@gmail.com",
   phone: "+34 678 630 197",
   github: "https://github.com/albertmenendezg",
   linkedin: "https://www.linkedin.com/in/albert-menendez-gonzalez",
+  location: "Barcelona, Spain",
 };
 
 export const experience = [
   {
     id: 1,
     company: "Nter Tech Services",
-    position: "Backend Engineer",
+    positionKey: "experience.nter.position",
     period: "May 2025 - Present",
-    description: [
-      "Designed and developed a scalable system to automatically validate code submissions, reducing manual correction time.",
-      "Built backend microservices using Java Spring Boot with asynchronous communication via RabbitMQ.",
-      "Orchestration of containerized applications using Docker and Kubernetes.",
-      "Integrated CI/CD pipelines (GitLab) and automated infrastructure on AWS."
-    ],
+    descriptionKey: "experience.nter.description",
     tech: ["Java", "SpringBoot", "RabbitMQ", "Docker", "Kubernetes", "MiniKube", "AWS", "Python", "Git", "GitLab"]
   },
   {
     id: 2,
-    company: "Feeder The Reaction SaaS",
-    position: "Backend Developer",
+    company: "Nter Tech Services",
+    positionKey: "experience.feeder.position",
     period: "Oct 2022 - Apr 2025",
-    description: [
-      "Developed and maintained REST APIs in a microservices architecture using Spring Boot and NestJS communicated with RabbitMQ.",
-      "Migration from monolith to microservices, applying Hexagonal Architecture and DDD.",
-      "Designed and managed relational and non-relational databases (MySQL, PostgreSQL, MongoDB, Redis).",
-      "Implemented CI/CD pipelines and deployed cloud infrastructure on AWS."
-    ],
+    descriptionKey: "experience.feeder.description",
     tech: ["Spring Boot", "Java", "TypeScript", "Node.js", "NestJS", "RabbitMQ", "MySQL", "MongoDB", "Redis", "Docker", "Linux", "AWS", "Git", "BitBucket"]
   },
   {
     id: 3,
-    company: "Foxize Cloud",
-    position: "Fullstack Developer",
+    company: "Nter Tech Services",
+    positionKey: "experience.foxize.position",
     period: "Sep 2021 - Oct 2022",
-    description: [
-      "Developed and maintained a SaaS e-learning platform using Symfony (PHP).",
-      "Applied SOLID principles and improved code maintainability.",
-      "Development of frontend functionalities with HTML, CSS, and JavaScript with Twig templates."
-    ],
+    descriptionKey: "experience.foxize.description",
     tech: ["Symfony", "PHP", "Twig", "JavaScript", "MySQL", "Docker", "Linux", "HTML", "CSS", "Bootstrap", "Git", "GitLab"]
   }
 ];
