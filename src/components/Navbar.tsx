@@ -3,17 +3,20 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, Terminal } from "lucide-react";
-
-const navItems = [
-  { name: "About", href: "#about" },
-  { name: "Experience", href: "#experience" },
-  { name: "Skills", href: "#skills" },
-  { name: "Certifications", href: "#certifications" },
-  { name: "Contact", href: "#contact" },
-];
+import { useLanguage } from "@/context/LanguageContext";
+import LanguageSelector from "./LanguageSelector";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useLanguage();
+
+  const navItems = [
+    { name: t.nav.about, href: "#about" },
+    { name: t.nav.experience, href: "#experience" },
+    { name: t.nav.skills, href: "#skills" },
+    { name: t.nav.certifications, href: "#certifications" },
+    { name: t.nav.contact, href: "#contact" },
+  ];
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-950/80 backdrop-blur-md border-b border-gray-800">
@@ -34,14 +37,18 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
+            <LanguageSelector />
           </div>
 
-          <button
-            className="md:hidden text-gray-300"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          <div className="md:hidden flex items-center">
+            <LanguageSelector />
+            <button
+              className="ml-2 text-gray-300"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
       </div>
 

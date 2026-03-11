@@ -2,9 +2,12 @@
 
 import { motion } from "framer-motion";
 import { certifications } from "@/data/portfolio";
+import { useLanguage } from "@/context/LanguageContext";
 import { Award } from "lucide-react";
 
 export default function Certifications() {
+  const { t } = useLanguage();
+
   return (
     <section id="certifications" className="py-20 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -15,8 +18,18 @@ export default function Certifications() {
           transition={{ duration: 0.5 }}
           className="text-3xl font-bold text-white mb-12 text-center"
         >
-          <span className="text-emerald-400">04.</span> Certifications
+          <span className="text-emerald-400">04.</span> {t.certifications.title}
         </motion.h2>
+        
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-gray-400 text-center mb-12 text-lg max-w-2xl mx-auto"
+        >
+          {t.certifications.description}
+        </motion.p>
         
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {certifications.map((cert, index) => (

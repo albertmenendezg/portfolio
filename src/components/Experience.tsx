@@ -1,10 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { experience } from "@/data/portfolio";
+import { experienceTranslations } from "@/data/translations";
 import { Briefcase } from "lucide-react";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Experience() {
+  const { t, language } = useLanguage();
+  const experience = experienceTranslations[language];
+
   return (
     <section id="experience" className="py-20 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -15,7 +19,7 @@ export default function Experience() {
           transition={{ duration: 0.5 }}
           className="text-3xl font-bold text-white mb-12 text-center"
         >
-          <span className="text-emerald-400">02.</span> Experience
+          <span className="text-emerald-400">02.</span> {t.experience.title}
         </motion.h2>
         
         <div className="max-w-3xl mx-auto space-y-8">

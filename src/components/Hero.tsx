@@ -3,8 +3,11 @@
 import { personalInfo } from "@/data/portfolio";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import { motion } from "framer-motion";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Hero() {
+  const { t } = useLanguage();
+
   return (
     <section className="min-h-screen flex items-center justify-center pt-16 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -15,7 +18,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="text-emerald-400 font-mono mb-4 text-4xl"
           >
-            Hello, I am
+            {t.hero.hello}
           </motion.p>
           
           <motion.h1 
@@ -42,7 +45,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="max-w-2xl mx-auto text-gray-400 mb-8 text-lg"
           >
-            {personalInfo.summary}
+            {t.about.summary}
           </motion.p>
           
           <motion.div 
@@ -85,14 +88,14 @@ export default function Hero() {
               href="#contact"
               className="inline-flex items-center px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-gray-900 font-semibold rounded-lg transition-colors"
             >
-              Contact Me
+              {t.hero.contactMe}
               <ArrowRight className="ml-2 w-4 h-4" />
             </a>
             <a
               href="#about"
               className="inline-flex items-center px-6 py-3 border border-gray-700 text-gray-300 hover:bg-gray-800 rounded-lg transition-colors"
             >
-              More about me
+              {t.hero.moreAboutMe}
             </a>
           </motion.div>
         </div>

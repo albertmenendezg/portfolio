@@ -1,9 +1,11 @@
 "use client";
 
 import { personalInfo } from "@/data/portfolio";
+import { useLanguage } from "@/context/LanguageContext";
 import { Github, Linkedin, Mail, Heart } from "lucide-react";
 
 export default function Footer() {
+  const { t } = useLanguage();
   const currentYear = new Date().getFullYear();
 
   return (
@@ -36,7 +38,7 @@ export default function Footer() {
           </div>
           
           <p className="text-gray-400 text-sm flex items-center">
-            Designed & Built by {personalInfo.name} 
+            {t.footer.builtWith} {personalInfo.name} 
             <Heart className="w-4 h-4 text-emerald-400 mx-1" /> 
             {currentYear}
           </p>
