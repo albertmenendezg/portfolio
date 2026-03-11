@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 import { personalInfo } from "@/data/portfolio";
 import { Mail, MapPin, Phone, Send, CheckCircle, Loader2 } from "lucide-react";
@@ -13,40 +14,36 @@ type FormData = {
 };
 
 export default function Contact() {
-  const [formData, setFormData] = useState<FormData>({
-    name: "",
-    email: "",
-    subject: "",
-    message: ""
-  });
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors }
+  } = useForm<FormData>();
+
+  const onSubmit = async (data: FormData) => {
     setStatus("loading");
 
     try {
-      const response = await fetch(process.env.NEXT_PUBLIC_LAMBDA_EMAIL_URL!, {
+      const response = await fetch(process.env.NEXT_PUBLIC_EMAIL_URL!, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify(data)
       });
 
       if (response.ok) {
         setStatus("success");
-        setFormData({ name: "", email: "", subject: "", message: "" });
+        reset();
       } else {
         setStatus("error");
       }
     } catch {
       setStatus("error");
     }
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
   return (
@@ -70,8 +67,7 @@ export default function Contact() {
           className="max-w-5xl mx-auto"
         >
           <p className="text-gray-400 text-center mb-12 text-lg">
-            I am currently looking for new opportunities. Whether you have a question 
-            or just want to say hi, I will try my best to get back to you!
+            I am open to new opportunities. Feel free to reach out if you would like to know more about my work, or you think we can discuss for potential collaborations.
           </p>
           
           <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -105,8 +101,8 @@ export default function Contact() {
             </motion.div>
           </div>
           
-          <motion.form 
-            onSubmit={handleSubmit} 
+          <motion.form
+            onSubmit={handleSubmit(onSubmit)}
             className="space-y-4"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -114,43 +110,55 @@ export default function Contact() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <div className="grid md:grid-cols-2 gap-4">
-              <input
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                type="text"
-                placeholder="Name"
-                required
-                className="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-emerald-500"
-              />
-              <input
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                type="email"
-                placeholder="Email"
-                required
-                className="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-emerald-500"
-              />
+              <div>
+                <input
+                  {...register("name", {
+                    required: "Name is required",
+                    pattern: {
+                      value: /^[a-zA-Z\s]+$/,
+                      message: "Name can only include alphabetic characters"
+                    }
+                  })}
+                  type="text"
+                  placeholder="Name"
+                  className="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-emerald-500"
+                />
+                {errors.name && <p className="text-red-400 text-sm mt-1">{errors.name.message}</p>}
+              </div>
+              <div>
+                <input
+                  {...register("email", {
+                    required: "Email is required",
+                    pattern: {
+                      value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                      message: "Invalid email address"
+                    }
+                  })}
+                  type="email"
+                  placeholder="Email"
+                  className="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-emerald-500"
+                />
+                {errors.email && <p className="text-red-400 text-sm mt-1">{errors.email.message}</p>}
+              </div>
             </div>
-            <input
-              name="subject"
-              value={formData.subject}
-              onChange={handleChange}
-              type="text"
-              placeholder="Subject"
-              required
-              className="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-emerald-500"
-            />
-            <textarea
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              placeholder="Message"
-              rows={5}
-              required
-              className="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-emerald-500 resize-none"
-            />
+            <div>
+              <input
+                {...register("subject", { required: "Subject is required" })}
+                type="text"
+                placeholder="Subject"
+                className="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-emerald-500"
+              />
+              {errors.subject && <p className="text-red-400 text-sm mt-1">{errors.subject.message}</p>}
+            </div>
+            <div>
+              <textarea
+                {...register("message", { required: "Message is required" })}
+                placeholder="Message"
+                rows={5}
+                className="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-emerald-500 resize-none"
+              />
+              {errors.message && <p className="text-red-400 text-sm mt-1">{errors.message.message}</p>}
+            </div>
             <motion.button
               type="submit"
               disabled={status === "loading" || status === "success"}
