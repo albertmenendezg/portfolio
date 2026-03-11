@@ -48,7 +48,7 @@ npm start
 - **Experience**: Work history with tech stack
 - **Skills**: Technologies organized by category
 - **Certifications**: Professional certifications with links
-- **Contact**: Contact information and form
+- **Contact**: Contact information links
 
 ## Deployment
 
@@ -57,5 +57,3 @@ This project can be deployed to Vercel, Netlify, or any static hosting service.
 ```bash
 npm run build
 ```
-
-The output will be in the `.next` folder.
