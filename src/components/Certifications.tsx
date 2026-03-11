@@ -18,7 +18,7 @@ export default function Certifications() {
           transition={{ duration: 0.5 }}
           className="text-3xl font-bold text-white mb-12 text-center"
         >
-          <span className="text-emerald-400">04.</span> {t.certifications.title}
+          {t.certifications.title}
         </motion.h2>
         
         <motion.p

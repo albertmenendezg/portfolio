@@ -18,7 +18,7 @@ export default function About() {
           transition={{ duration: 0.5 }}
           className="text-3xl font-bold text-white mb-12 text-center"
         >
-          <span className="text-emerald-400">01.</span> {t.about.title}
+          {t.about.title}
         </motion.h2>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">

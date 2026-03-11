@@ -38,7 +38,7 @@ export default function Experience() {
           transition={{ duration: 0.5 }}
           className="text-3xl font-bold text-white mb-12 text-center"
         >
-          <span className="text-emerald-400">02.</span> {t.experience.title}
+          {t.experience.title}
         </motion.h2>
         
         <motion.p

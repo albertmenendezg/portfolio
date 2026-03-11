@@ -32,7 +32,7 @@ export default function Skills() {
           transition={{ duration: 0.5 }}
           className="text-3xl font-bold text-white mb-12 text-center"
         >
-          <span className="text-emerald-400">03.</span> {t.skills.title}
+          {t.skills.title}
         </motion.h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

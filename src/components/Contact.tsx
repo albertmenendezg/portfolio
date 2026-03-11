@@ -58,7 +58,7 @@ export default function Contact() {
           transition={{ duration: 0.5 }}
           className="text-3xl font-bold text-white mb-12 text-center"
         >
-          <span className="text-emerald-400">05.</span> {t.contact.title}
+          {t.contact.title}
         </motion.h2>
         
         <motion.div 
