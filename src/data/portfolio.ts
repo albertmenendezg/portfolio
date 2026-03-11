@@ -1,5 +1,5 @@
 export const personalInfo = {
-  name: "Albert Menéndez Gonzélez",
+  name: "Albert Menéndez González",
   email: "albertmenendezg@gmail.com",
   phone: "+34 678 630 197",
   github: "https://github.com/albertmenendezg",
