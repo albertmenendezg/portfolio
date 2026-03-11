@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Albert Menendez Gonzalez | Senior Backend & DevOps Engineer",
   description:
     "Senior Backend & DevOps Engineer with 4+ years experience in Java, Go, TypeScript, SpringBoot, Node.js, Docker, Kubernetes, and cloud infrastructure.",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
