@@ -68,7 +68,7 @@ export default function Contact() {
           transition={{ duration: 0.5 }}
           className="max-w-5xl mx-auto"
         >
-          <p className="text-gray-400 text-center mb-12 text-lg">
+          <p className="text-gray-400 text-center text-justify mb-12 text-lg">
             {t.contact.description}
           </p>
           

@@ -41,6 +41,16 @@ export default function Experience() {
           <span className="text-emerald-400">02.</span> {t.experience.title}
         </motion.h2>
         
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-gray-400 text-center text-justify mb-12 max-w-2xl mx-auto"
+        >
+          {t.experience.description}
+        </motion.p>
+        
         <div className="max-w-4xl mx-auto">
           <div className="relative">
             <div className="absolute left-5 top-0 bottom-0 w-px bg-gray-700" />

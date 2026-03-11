@@ -26,7 +26,7 @@ export default function Certifications() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-gray-400 text-center mb-12 text-lg max-w-2xl mx-auto"
+          className="text-gray-400 text-center text-justify mb-12 text-lg max-w-2xl mx-auto"
         >
           {t.certifications.description}
         </motion.p>

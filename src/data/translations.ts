@@ -29,6 +29,7 @@ export const translations = {
     },
     experience: {
       title: "Experience",
+      description: "Over the past years, I have been working on designing and developing scalable backend systems, implementing microservices architectures, and automating infrastructure. My roles have focused on building robust APIs, managing cloud environments, and improving development workflows through CI/CD practices.",
       nter: {
         position: "Backend Engineer",
         description: [
@@ -112,6 +113,7 @@ export const translations = {
     },
     experience: {
       title: "Experiencia",
+      description: "Durante los últimos años, he estado trabajando en el diseño y desarrollo de sistemas backend escalables, implementando arquitecturas de microservicios y automatizando infraestructura. Mis roles se han centrado en construir APIs robustas, gestionar entornos cloud y mejorar los flujos de desarrollo mediante prácticas CI/CD.",
       nter: {
         position: "Ingeniero Backend",
         description: [

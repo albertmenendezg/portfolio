@@ -10,6 +10,7 @@ export const personalInfo = {
 export const experience = [
   {
     id: 1,
+    companyKey: "experience.nter.company",
     company: "Nter Tech Services",
     positionKey: "experience.nter.position",
     period: "May 2025 - Present",
@@ -18,7 +19,8 @@ export const experience = [
   },
   {
     id: 2,
-    company: "Nter Tech Services",
+    companyKey: "experience.feeder.company",
+    company: "Feeder The Reaction SaaS",
     positionKey: "experience.feeder.position",
     period: "Oct 2022 - Apr 2025",
     descriptionKey: "experience.feeder.description",
@@ -26,7 +28,8 @@ export const experience = [
   },
   {
     id: 3,
-    company: "Nter Tech Services",
+    companyKey: "experience.foxize.company",
+    company: "Foxize Cloud",
     positionKey: "experience.foxize.position",
     period: "Sep 2021 - Oct 2022",
     descriptionKey: "experience.foxize.description",

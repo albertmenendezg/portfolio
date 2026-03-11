@@ -29,7 +29,7 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="space-y-4"
           >
-            <p className="text-gray-400 text-lg leading-relaxed">
+            <p className="text-gray-400 text-lg leading-relaxed text-justify">
               {t.about.summary}
             </p>
             <p className="text-gray-400 text-lg leading-relaxed">
