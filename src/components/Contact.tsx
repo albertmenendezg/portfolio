@@ -99,7 +99,7 @@ export default function Contact() {
             >
               <MapPin className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
               <p className="text-gray-400 text-sm">{t.contact.location}</p>
-              <p className="text-white">{personalInfo.location}</p>
+              <p className="text-white">{t.hero.location}</p>
             </motion.div>
           </div>
           

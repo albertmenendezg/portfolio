@@ -1,9 +1,7 @@
 export const personalInfo = {
-  name: "Albert Menendez Gonzalez",
-  title: "Backend & DevOps Engineer",
+  name: "Albert Menéndez González",
   email: "albertmenendezg@gmail.com",
   phone: "+34 678 630 197",
-  location: "Barcelona, Spain",
   github: "https://github.com/albertmenendezg",
   linkedin: "https://www.linkedin.com/in/albert-menendez-gonzalez",
 };
