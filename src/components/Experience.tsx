@@ -78,7 +78,7 @@ export default function Experience() {
                         <h3 className="text-lg font-semibold text-white">
                           {position}
                         </h3>
-                        <span className="text-emerald-400 font-mono text-sm whitespace-nowrap">{job.period}</span>
+                        <span className="text-gray-500 font-mono text-sm whitespace-nowrap">{job.period}</span>
                       </div>
                       <p className="text-emerald-400 text-sm mb-3">{job.company}</p>
                       <ul className="space-y-1 mb-3">
