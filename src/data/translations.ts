@@ -47,7 +47,7 @@ export const translations = {
     },
     contact: {
       title: "Get In Touch",
-      description: "I am open to new opportunities. Feel free to reach out if you would like to know more about my work, discuss potential collaborations, or just to say hello.",
+      description: "I am open to new opportunities. Feel free to reach out if you would like to know more about my work, or you think we could discuss for potential collaborations.",
       email: "Email",
       phone: "Phone",
       location: "Location"
@@ -104,7 +104,7 @@ export const translations = {
     },
     contact: {
       title: "Contacto",
-      description: "Estoy abierto a nuevas oportunidades. No dudes en contactarme si quieres saber más sobre mi trabajo, discutir posibles colaboraciones o simplemente para saludar.",
+      description: "Estoy abierto a nuevas oportunidades. No dudes en contactarme si quieres saber más sobre mi trabajo o si crees que podríamos hablar sobre posibles colaboraciones.",
       email: "Email",
       phone: "Teléfono",
       location: "Ubicación"
