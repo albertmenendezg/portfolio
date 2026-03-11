@@ -41,14 +41,6 @@ npm run build
 npm start
 ```
 
-## Environment Variables
-
-Create a `.env.local` file with:
-
-```env
-NEXT_PUBLIC_LAMBDA_EMAIL_URL=
-```
-
 ## Sections
 
 - **Hero**: Introduction and social links
