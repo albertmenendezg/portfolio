@@ -8,15 +8,15 @@ import {
   Puzzle, Terminal
 } from "lucide-react";
 
-const skillCategories = [
-  { name: "Languages", items: skills.languages, color: "text-emerald-400", bg: "bg-emerald-500/10", icon: Code2 },
-  { name: "Frameworks", items: skills.frameworks, color: "text-blue-400", bg: "bg-blue-500/10", icon: Box },
-  { name: "Databases", items: skills.databases, color: "text-purple-400", bg: "bg-purple-500/10", icon: Database },
-  { name: "DevOps", items: skills.devops, color: "text-orange-400", bg: "bg-orange-500/10", icon: Cloud },
-  { name: "Tools", items: skills.tools, color: "text-pink-400", bg: "bg-pink-500/10", icon: Wrench },
-  { name: "Testing", items: skills.testing, color: "text-yellow-400", bg: "bg-yellow-500/10", icon: TestTube2 },
-  { name: "Architectures", items: skills.methodologies, color: "text-cyan-400", bg: "bg-cyan-500/10", icon: Puzzle },
-  { name: "Other", items: skills.other, color: "text-red-400", bg: "bg-red-500/10", icon: Terminal },
+const skillCategoriesKeys = [
+  { key: "languages", items: skills.languages, color: "text-emerald-400", bg: "bg-emerald-500/10", icon: Code2 },
+  { key: "frameworks", items: skills.frameworks, color: "text-blue-400", bg: "bg-blue-500/10", icon: Box },
+  { key: "databases", items: skills.databases, color: "text-purple-400", bg: "bg-purple-500/10", icon: Database },
+  { key: "devops", items: skills.devops, color: "text-orange-400", bg: "bg-orange-500/10", icon: Cloud },
+  { key: "tools", items: skills.tools, color: "text-pink-400", bg: "bg-pink-500/10", icon: Wrench },
+  { key: "testing", items: skills.testing, color: "text-yellow-400", bg: "bg-yellow-500/10", icon: TestTube2 },
+  { key: "architectures", items: skills.methodologies, color: "text-cyan-400", bg: "bg-cyan-500/10", icon: Puzzle },
+  { key: "other", items: skills.other, color: "text-red-400", bg: "bg-red-500/10", icon: Terminal },
 ];
 
 export default function Skills() {
@@ -36,11 +36,11 @@ export default function Skills() {
         </motion.h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {skillCategories.map((category, index) => {
+          {skillCategoriesKeys.map((category, index) => {
             const Icon = category.icon;
             return (
               <motion.div
-                key={category.name}
+                key={category.key}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -50,7 +50,7 @@ export default function Skills() {
               >
                 <h3 className="text-lg font-semibold text-white mb-4 flex items-center">
                   <Icon className={`w-5 h-5 ${category.color} mr-2`} />
-                  {category.name}
+                  {t.skills[category.key as keyof typeof t.skills]}
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {category.items.map((skill) => (

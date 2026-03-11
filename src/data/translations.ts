@@ -29,7 +29,15 @@ export const translations = {
       title: "Experience"
     },
     skills: {
-      title: "Skills & Technologies"
+      title: "Skills & Technologies",
+      languages: "Languages",
+      frameworks: "Frameworks",
+      databases: "Databases",
+      devops: "DevOps",
+      tools: "Tools",
+      testing: "Testing",
+      architectures: "Architectures",
+      other: "Other"
     },
     certifications: {
       title: "Certifications",
@@ -76,7 +84,15 @@ export const translations = {
       title: "Experiencia"
     },
     skills: {
-      title: "Habilidades y Tecnologías"
+      title: "Habilidades y Tecnologías",
+      languages: "Lenguajes",
+      frameworks: "Frameworks",
+      databases: "Bases de Datos",
+      devops: "DevOps",
+      tools: "Herramientas",
+      testing: "Testing",
+      architectures: "Arquitecturas",
+      other: "Otros"
     },
     certifications: {
       title: "Certificaciones",
