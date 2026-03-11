@@ -43,7 +43,7 @@ export const translations = {
     },
     certifications: {
       title: "Certifications",
-      description: "Currently pursuing additional cloud and infrastructure certifications to further enhance my expertise."
+      description: "Currently I am getting additional cloud and infrastructure certifications to further enhance my knowledge and expertise."
     },
     contact: {
       title: "Get In Touch",
@@ -100,7 +100,7 @@ export const translations = {
     },
     certifications: {
       title: "Certificaciones",
-      description: "Actualmente estoy obteniendo certificaciones adicionales en cloud e infraestructura para seguir mejorando mi experiencia."
+      description: "Actualmente estoy obteniendo certificaciones adicionales en la nube y en infraestructura para mejorar aún más mis conocimientos y experiencia."
     },
     contact: {
       title: "Contacto",
