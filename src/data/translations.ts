@@ -9,6 +9,8 @@ export const translations = {
     },
     hero: {
       hello: "Hello, I am",
+      title: "Backend & DevOps Engineer",
+      location: "Barcelona, Spain",
       contactMe: "Contact Me",
       moreAboutMe: "More about me"
     },
@@ -64,6 +66,8 @@ export const translations = {
     },
     hero: {
       hello: "Hola, soy",
+      title: "Ingeniero Backend & DevOps",
+      location: "Barcelona, España",
       contactMe: "Contáctame",
       moreAboutMe: "Más sobre mí"
     },

@@ -37,7 +37,7 @@ export default function About() {
             </p>
             <div className="flex items-center text-gray-400 pt-4">
               <MapPin className="w-5 h-5 mr-2 text-emerald-400" />
-              <span>{personalInfo.location}</span>
+              <span>{t.hero.location}</span>
             </div>
           </motion.div>
           

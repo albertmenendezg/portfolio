@@ -6,7 +6,6 @@ export const personalInfo = {
   location: "Barcelona, Spain",
   github: "https://github.com/albertmenendezg",
   linkedin: "https://www.linkedin.com/in/albert-menendez-gonzalez",
-  summary: "Backend and DevOps Engineer with experience in designing and implementing scalable architectures. Specialized in Java, Go, and Node.js with a strong focus on cloud-native solutions, CI/CD, and automation."
 };
 
 export const experience = [

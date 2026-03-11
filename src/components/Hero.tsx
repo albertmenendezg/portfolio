@@ -36,7 +36,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-2xl md:text-3xl text-gray-400 mb-8"
           >
-            {personalInfo.title}
+            {t.hero.title}
           </motion.h2>
           
           <motion.p 
