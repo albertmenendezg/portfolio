@@ -52,8 +52,4 @@ npm start
 
 ## Deployment
 
-This project can be deployed to Vercel, Netlify, or any static hosting service.
-
-```bash
-npm run build
-```
+This project is being deployed in AWS with S3 and Cloudfront services through github actions
