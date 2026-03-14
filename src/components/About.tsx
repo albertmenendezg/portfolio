@@ -50,14 +50,14 @@ export default function About() {
           >
             <div className="grid grid-cols-2 gap-4">
               <motion.div 
-                whileHover={{ scale: 1.02 }}
+                whileHover={{ scale: 1.1 }}
                 className="bg-gray-900 p-6 rounded-lg border border-gray-800 text-center"
               >
                 <p className="text-3xl font-bold text-white">4+</p>
                 <p className="text-gray-400 text-sm">{t.about.yearsExperience}</p>
               </motion.div>
               <motion.div 
-                whileHover={{ scale: 1.02 }}
+                whileHover={{ scale: 1.1 }}
                 className="bg-gray-900 p-6 rounded-lg border border-gray-800 text-center"
               >
                 <p className="text-3xl font-bold text-white">3</p>

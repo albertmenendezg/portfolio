@@ -45,8 +45,8 @@ export default function Skills() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.05 }}
-                whileHover={{ scale: 1.02 }}
-                className="bg-gray-900 p-5 rounded-lg border border-gray-800"
+                whileHover={{ scale: 1.20 }}
+                className="bg-gray-900 p-5 rounded-lg border border-gray-800 hover:cursor-pointer"
               >
                 <h3 className="text-lg font-semibold text-white mb-4 flex items-center">
                   <Icon className={`w-5 h-5 ${category.color} mr-2`} />
