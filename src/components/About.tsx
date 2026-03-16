@@ -1,12 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { personalInfo } from "@/data/portfolio";
 import { MapPin } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
+import {experience, personalInfo} from "@/data/portfolio";
 
 export default function About() {
   const { t } = useLanguage();
+
+  const experienceFrom = new Date(personalInfo.startWorking);
+  const currentYear = new Date();
+  const months = (currentYear.getFullYear() - experienceFrom.getFullYear()) * 12 + (currentYear.getMonth() - experienceFrom.getMonth());
+  const yearsExperience = Math.floor((months / 12) * 2) / 2;
 
   return (
     <section id="about" className="py-20 bg-gray-950">
@@ -53,15 +58,15 @@ export default function About() {
                 whileHover={{ scale: 1.1 }}
                 className="bg-gray-900 p-6 rounded-lg border border-gray-800 text-center"
               >
-                <p className="text-3xl font-bold text-white">4+</p>
+                <p className="text-3xl font-bold text-white">{yearsExperience}+</p>
                 <p className="text-gray-400 text-sm">{t.about.yearsExperience}</p>
               </motion.div>
               <motion.div 
                 whileHover={{ scale: 1.1 }}
                 className="bg-gray-900 p-6 rounded-lg border border-gray-800 text-center"
               >
-                <p className="text-3xl font-bold text-white">3</p>
-                <p className="text-gray-400 text-sm">{t.about.projects}</p>
+                <p className="text-3xl font-bold text-white">{experience.length}</p>
+                <p className="text-gray-400 text-sm">{t.about.workExperience}</p>
               </motion.div>
             </div>
             

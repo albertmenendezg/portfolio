@@ -5,6 +5,7 @@ export const personalInfo = {
   github: "https://github.com/albertmenendezg",
   linkedin: "https://www.linkedin.com/in/albert-menendez-gonzalez",
   location: "Barcelona, Spain",
+  startWorking: "2021-09-01"
 };
 
 export const experience = [

@@ -24,8 +24,8 @@ export const translations = {
       containers: "Containerization & Orchestration (Docker, K8s)",
       cicd: "CI/CD Pipeline Design & Implementation",
       iac: "Infrastructure as Code with Terraform",
-      yearsExperience: "Years Experience",
-      projects: "Projects"
+      yearsExperience: "Years experience",
+      workExperience: "Work experience",
     },
     experience: {
       title: "Experience",
@@ -108,8 +108,8 @@ export const translations = {
       containers: "Contenedores y Orquestación (Docker, K8s)",
       cicd: "Diseño e Implementación de Pipelines CI/CD",
       iac: "Infraestructura como Código con Terraform",
-      yearsExperience: "Años de Experiencia",
-      projects: "Proyectos"
+      yearsExperience: "Años de experiencia",
+      workExperience: "Experiencia laborales",
     },
     experience: {
       title: "Experiencia",
