@@ -81,6 +81,12 @@ export const translations = {
     },
     footer: {
       builtWith: "Built by"
+    },
+    notFound: {
+      title: "404",
+      subtitle: "Page Not Found",
+      description: "The page you're looking for doesn't exist or has been moved.",
+      goHome: "Go Home"
     }
   },
   es: {
@@ -109,7 +115,7 @@ export const translations = {
       cicd: "Diseño e Implementación de Pipelines CI/CD",
       iac: "Infraestructura como Código con Terraform",
       yearsExperience: "Años de experiencia",
-      workExperience: "Experiencia laborales",
+      workExperience: "Experiencias laborales",
     },
     experience: {
       title: "Experiencia",
@@ -165,6 +171,12 @@ export const translations = {
     },
     footer: {
       builtWith: "Creado por"
+    },
+    notFound: {
+      title: "404",
+      subtitle: "Página No Encontrada",
+      description: "La página que buscas no existe o ha sido movida.",
+      goHome: "Volver al Inicio"
     }
   }
 };
