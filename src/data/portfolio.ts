@@ -55,6 +55,6 @@ export const certifications = [
     name: "AWS Cloud Practitioner",
     issuer: "Amazon Web Services",
     year: "2026",
-    link: "https://www.credly.com/earner/earned/badge/43118d9c-cb1c-4712-8db7-2a5b366989dc"
+    link: "https://www.credly.com/badges/43118d9c-cb1c-4712-8db7-2a5b366989dc"
   }
 ];
