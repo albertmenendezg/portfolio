@@ -1,8 +1,19 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
+  --background: #ffffff;
+  --foreground: #111827;
+  --scrollbar-track: #f3f4f6;
+  --scrollbar-thumb: #d1d5db;
+}
+
+.dark {
   --background: #030712;
   --foreground: #f3f4f6;
+  --scrollbar-track: #111827;
+  --scrollbar-thumb: #374151;
 }
 
 body {
@@ -19,11 +30,11 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #111827;
+  background: var(--scrollbar-track);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #374151;
+  background: var(--scrollbar-thumb);
   border-radius: 5px;
 }
 

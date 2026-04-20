@@ -49,60 +49,60 @@ export default function Contact() {
   // };
 
   return (
-    <section id="contact" className="py-20 bg-gray-950">
+    <section id="contact" className="py-20 bg-white dark:bg-gray-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.h2 
+        <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-3xl font-bold text-white mb-12 text-center"
+          className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center"
         >
           {t.contact.title}
         </motion.h2>
-        
-        <motion.div 
+
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
           className="max-w-5xl mx-auto"
         >
-          <p className="text-gray-400 text-center text-justify mb-12 text-lg">
+          <p className="text-gray-600 dark:text-gray-400 text-center text-justify mb-12 text-lg">
             {t.contact.description}
           </p>
-          
+
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <motion.a
               href={`mailto:${personalInfo.email}`}
               whileHover={{ scale: 1.02 }}
-              className="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-emerald-400/50 transition-colors text-center"
+              className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-emerald-500/50 dark:hover:border-emerald-400/50 transition-colors text-center"
             >
-              <Mail className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
-              <p className="text-gray-400 text-sm">{t.contact.email}</p>
-              <p className="text-white text-sm break-all">{personalInfo.email}</p>
+              <Mail className="w-8 h-8 text-emerald-600 dark:text-emerald-400 mx-auto mb-3" />
+              <p className="text-gray-500 dark:text-gray-400 text-sm">{t.contact.email}</p>
+              <p className="text-gray-900 dark:text-white text-sm break-all">{personalInfo.email}</p>
             </motion.a>
-            
+
             <motion.a
               href={`tel:${personalInfo.phone}`}
               whileHover={{ scale: 1.02 }}
-              className="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-emerald-400/50 transition-colors text-center"
+              className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-emerald-500/50 dark:hover:border-emerald-400/50 transition-colors text-center"
             >
-              <Phone className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
-              <p className="text-gray-400 text-sm">{t.contact.phone}</p>
-              <p className="text-white">{personalInfo.phone}</p>
+              <Phone className="w-8 h-8 text-emerald-600 dark:text-emerald-400 mx-auto mb-3" />
+              <p className="text-gray-500 dark:text-gray-400 text-sm">{t.contact.phone}</p>
+              <p className="text-gray-900 dark:text-white">{personalInfo.phone}</p>
             </motion.a>
-            
+
             <motion.div
               whileHover={{ scale: 1.02 }}
-              className="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-emerald-400/50 transition-colors text-center"
+              className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-emerald-500/50 dark:hover:border-emerald-400/50 transition-colors text-center"
             >
-              <MapPin className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
-              <p className="text-gray-400 text-sm">{t.contact.location}</p>
-              <p className="text-white">{t.hero.location}</p>
+              <MapPin className="w-8 h-8 text-emerald-600 dark:text-emerald-400 mx-auto mb-3" />
+              <p className="text-gray-500 dark:text-gray-400 text-sm">{t.contact.location}</p>
+              <p className="text-gray-900 dark:text-white">{t.hero.location}</p>
             </motion.div>
           </div>
-          
+
         {/*  <motion.form */}
         {/*    onSubmit={handleSubmit(onSubmit)} */}
         {/*    className="space-y-4"*/}
