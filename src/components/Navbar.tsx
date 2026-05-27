@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, Terminal } from "lucide-react";
-import { useLanguage } from "@/context/LanguageContext";
+import { useTranslation } from "react-i18next";
 import LanguageSelector from "./LanguageSelector";
 import ThemeToggle from "./ThemeToggle";
 
@@ -16,14 +16,14 @@ const scrollToSection = (id: string) => {
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const { t } = useLanguage();
+  const { t } = useTranslation();
 
   const navItems = [
-    { name: t.nav.about, id: "about" },
-    { name: t.nav.experience, id: "experience" },
-    { name: t.nav.skills, id: "skills" },
-    { name: t.nav.certifications, id: "certifications" },
-    { name: t.nav.contact, id: "contact" },
+    { name: t("nav.about"), id: "about" },
+    { name: t("nav.experience"), id: "experience" },
+    { name: t("nav.skills"), id: "skills" },
+    { name: t("nav.certifications"), id: "certifications" },
+    { name: t("nav.contact"), id: "contact" },
   ];
 
   return (

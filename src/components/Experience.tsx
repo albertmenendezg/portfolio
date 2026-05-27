@@ -2,24 +2,13 @@
 
 import { motion } from "framer-motion";
 import { experience } from "@/data/portfolio";
-import { translations } from "@/data/translations";
-import { useLanguage } from "@/context/LanguageContext";
+import { useTranslation } from "react-i18next";
 
 export default function Experience() {
-  const { t, language } = useLanguage();
-  const trans = translations[language];
-
-  const getTranslation = (key: string): string => {
-    const keys = key.split(".");
-    let result: any = trans;
-    for (const k of keys) {
-      result = result?.[k];
-    }
-    return result || key;
-  };
+  const { t } = useTranslation();
 
   const getDescription = (key: string): string[] => {
-    const result = getTranslation(key);
+    const result = t(key, { returnObjects: true }) as string[];
     return Array.isArray(result) ? result : [];
   };
 
@@ -38,7 +27,7 @@ export default function Experience() {
           transition={{ duration: 0.5 }}
           className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center"
         >
-          {t.experience.title}
+          {t("experience.title")}
         </motion.h2>
 
         <motion.p
@@ -48,7 +37,7 @@ export default function Experience() {
           transition={{ duration: 0.5 }}
           className="text-gray-600 dark:text-gray-400 text-center text-justify mb-12 max-w-2xl mx-auto"
         >
-          {t.experience.description}
+          {t("experience.description")}
         </motion.p>
 
         <div className="max-w-4xl mx-auto">
@@ -57,7 +46,7 @@ export default function Experience() {
 
             {experience.map((job, index) => {
               const year = extractYears(job.period);
-              const position = getTranslation(job.positionKey);
+              const position = t(job.positionKey);
 
               return (
                 <motion.div

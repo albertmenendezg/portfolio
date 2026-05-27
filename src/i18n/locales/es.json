@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "certifications": "Certificaciones",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "hello": "Hola, soy",
+    "title": "Ingeniero Backend, DevOps & IA Agéntica",
+    "location": "Barcelona, España",
+    "contactMe": "Contáctame",
+    "moreAboutMe": "Más sobre mí"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "summary": "Ingeniero Backend, DevOps y Agéntico en IA con experiencia en el diseño e implementación de arquitecturas escalables. Especializado en Java, Go y Node.js con un fuerte enfoque en soluciones cloud-native, CI/CD y automatización.",
+    "summary2": "Apasionado por construir sistemas robustos y escalables. Disfruto resolviendo problemas complejos y trabajando con tecnologías modernas para ofrecer soluciones de alta calidad.",
+    "whatIDo": "Qué hago",
+    "backend": "Desarrollo Backend con Java, Go y Node.js",
+    "cloud": "Arquitectura Cloud en AWS y GCP",
+    "containers": "Contenedores y Orquestación (Docker, K8s)",
+    "cicd": "Diseño e Implementación de Pipelines CI/CD",
+    "iac": "Infraestructura como Código con Terraform",
+    "yearsExperience": "Años de experiencia",
+    "workExperience": "Experiencias laborales"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "description": "Durante los últimos años, he estado trabajando en el diseño y desarrollo de sistemas backend escalables, implementando arquitecturas de microservicios y automatizando infraestructura. Mis roles se han centrado en construir APIs robustas, gestionar entornos cloud y mejorar los flujos de desarrollo mediante prácticas CI/CD.",
+    "nter": {
+      "position": "Ingeniero Backend",
+      "description": [
+        "Diseñé y desarrollé un sistema escalable para validar automáticamente envíos de código, reduciendo el tiempo de corrección manual.",
+        "Construí microservicios backend usando Java Spring Boot con comunicación asíncrona vía RabbitMQ.",
+        "Orquestación de aplicaciones containerizadas usando Docker y Kubernetes.",
+        "Integré pipelines CI/CD (GitLab) e infraestructura automatizada en AWS."
+      ]
+    },
+    "feeder": {
+      "position": "Desarrollador Backend",
+      "description": [
+        "Desarrollé y mantuve APIs REST en arquitectura de microservicios usando Spring Boot y NestJS comunicados con RabbitMQ.",
+        "Migración de monolito a microservicios, aplicando Arquitectura Hexagonal y DDD.",
+        "Diseñé y gestioné bases de datos relacionales y no relacionales (MySQL, PostgreSQL, MongoDB, Redis).",
+        "Implementé pipelines CI/CD e infraestructura cloud en AWS."
+      ]
+    },
+    "foxize": {
+      "position": "Desarrollador Fullstack",
+      "description": [
+        "Desarrollé y mantuve una plataforma SaaS de e-learning usando Symfony (PHP).",
+        "Apliqué principios SOLID y mejoré la mantenibilidad del código.",
+        "Desarrollo de funcionalidades frontend con HTML, CSS y JavaScript con plantillas Twig."
+      ]
+    }
+  },
+  "skills": {
+    "title": "Habilidades y Tecnologías",
+    "languages": "Lenguajes",
+    "frameworks": "Frameworks",
+    "databases": "Bases de Datos",
+    "devops": "DevOps",
+    "tools": "Herramientas",
+    "testing": "Testing",
+    "architectures": "Arquitecturas",
+    "ai": "IA",
+    "other": "Otros"
+  },
+  "certifications": {
+    "title": "Certificaciones",
+    "description": "Actualmente estoy obteniendo certificaciones adicionales en la nube y en infraestructura para mejorar aún más mis conocimientos y experiencia."
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Estoy abierto a nuevas oportunidades. No dudes en contactarme si quieres saber más sobre mi trabajo o si crees que podríamos hablar sobre posibles colaboraciones.",
+    "email": "Email",
+    "phone": "Teléfono",
+    "location": "Ubicación"
+  },
+  "footer": {
+    "builtWith": "Creado por"
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Página No Encontrada",
+    "description": "La página que buscas no existe o ha sido movida.",
+    "goHome": "Volver al Inicio"
+  }
+}

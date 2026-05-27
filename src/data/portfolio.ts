@@ -46,6 +46,7 @@ export const skills = {
   tools: ["Postman", "Swagger", "Dbeaver", "Jetbrains", "Jira", "Trello"],
   testing: ["JUnit", "Jest", "Mockito", "Cucumber", "PHPUnit"],
   architectures: [ "Microservices", "Domain Driven Design", "Hexagonal Architecture", "Event Driven Architecture"],
+  ai: ["Prompt Engineering", "Agents", "MCP", "Skills", "OpenAI Codex", "Claude Code", "Opencode", "Ollama"],
   other: ["Git", "GitHub", "GitLab", "Bitbucket", "Linux", "Grafana", "RabbitMQ", "Kafka"]
 };
 

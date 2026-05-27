@@ -1,9 +1,9 @@
-import { translations } from "@/data/translations";
+import en from "@/i18n/locales/en.json";
 import Link from "next/link";
 import { Home } from "lucide-react";
 
 export default function NotFound() {
-  const t = translations.en.notFound;
+  const t = en.notFound;
 
   return (
     <main className="min-h-screen bg-gray-950 flex items-center justify-center">

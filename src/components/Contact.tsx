@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 import { personalInfo } from "@/data/portfolio";
-import { useLanguage } from "@/context/LanguageContext";
+import { useTranslation } from "react-i18next";
 import { Mail, MapPin, Phone, Send, CheckCircle, Loader2 } from "lucide-react";
 
 type FormData = {
@@ -15,7 +15,7 @@ type FormData = {
 };
 
 export default function Contact() {
-  const { t } = useLanguage();
+  const { t } = useTranslation();
   // const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   //
   // const {
@@ -58,7 +58,7 @@ export default function Contact() {
           transition={{ duration: 0.5 }}
           className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center"
         >
-          {t.contact.title}
+          {t("contact.title")}
         </motion.h2>
 
         <motion.div
@@ -69,7 +69,7 @@ export default function Contact() {
           className="max-w-5xl mx-auto"
         >
           <p className="text-gray-600 dark:text-gray-400 text-center text-justify mb-12 text-lg">
-            {t.contact.description}
+            {t("contact.description")}
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -79,7 +79,7 @@ export default function Contact() {
               className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-emerald-500/50 dark:hover:border-emerald-400/50 transition-colors text-center"
             >
               <Mail className="w-8 h-8 text-emerald-600 dark:text-emerald-400 mx-auto mb-3" />
-              <p className="text-gray-500 dark:text-gray-400 text-sm">{t.contact.email}</p>
+              <p className="text-gray-500 dark:text-gray-400 text-sm">{t("contact.email")}</p>
               <p className="text-gray-900 dark:text-white text-sm break-all">{personalInfo.email}</p>
             </motion.a>
 
@@ -89,7 +89,7 @@ export default function Contact() {
               className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-emerald-500/50 dark:hover:border-emerald-400/50 transition-colors text-center"
             >
               <Phone className="w-8 h-8 text-emerald-600 dark:text-emerald-400 mx-auto mb-3" />
-              <p className="text-gray-500 dark:text-gray-400 text-sm">{t.contact.phone}</p>
+              <p className="text-gray-500 dark:text-gray-400 text-sm">{t("contact.phone")}</p>
               <p className="text-gray-900 dark:text-white">{personalInfo.phone}</p>
             </motion.a>
 
@@ -98,8 +98,8 @@ export default function Contact() {
               className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-emerald-500/50 dark:hover:border-emerald-400/50 transition-colors text-center"
             >
               <MapPin className="w-8 h-8 text-emerald-600 dark:text-emerald-400 mx-auto mb-3" />
-              <p className="text-gray-500 dark:text-gray-400 text-sm">{t.contact.location}</p>
-              <p className="text-gray-900 dark:text-white">{t.hero.location}</p>
+              <p className="text-gray-500 dark:text-gray-400 text-sm">{t("contact.location")}</p>
+              <p className="text-gray-900 dark:text-white">{t("hero.location")}</p>
             </motion.div>
           </div>
 

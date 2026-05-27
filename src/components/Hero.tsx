@@ -3,10 +3,10 @@
 import { personalInfo } from "@/data/portfolio";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import { motion } from "framer-motion";
-import { useLanguage } from "@/context/LanguageContext";
+import { useTranslation } from "react-i18next";
 
 export default function Hero() {
-  const { t } = useLanguage();
+  const { t } = useTranslation();
 
   return (
     <section className="min-h-screen flex items-center justify-center pt-16 bg-gradient-to-b from-white via-gray-50 to-white dark:from-gray-950 dark:via-gray-900 dark:to-gray-950">
@@ -18,7 +18,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="text-emerald-600 dark:text-emerald-400 font-mono mb-4 text-4xl"
           >
-            {t.hero.hello}
+            {t("hero.hello")}
           </motion.p>
 
           <motion.h1
@@ -36,7 +36,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-2xl md:text-3xl text-gray-600 dark:text-gray-400 mb-8"
           >
-            {t.hero.title}
+            {t("hero.title")}
           </motion.h2>
 
           <motion.p
@@ -45,7 +45,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="max-w-2xl mx-auto text-gray-600 dark:text-gray-400 mb-8 text-lg text-justify"
           >
-            {t.about.summary}
+            {t("about.summary")}
           </motion.p>
 
           <motion.div
@@ -88,14 +88,14 @@ export default function Hero() {
               href="#contact"
               className="inline-flex items-center px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-gray-900 font-semibold rounded-lg transition-colors"
             >
-              {t.hero.contactMe}
+              {t("hero.contactMe")}
               <ArrowRight className="ml-2 w-4 h-4" />
             </a>
             <a
               href="#about"
               className="inline-flex items-center px-6 py-3 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors"
             >
-              {t.hero.moreAboutMe}
+              {t("hero.moreAboutMe")}
             </a>
           </motion.div>
         </div>

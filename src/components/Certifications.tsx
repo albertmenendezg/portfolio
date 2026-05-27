@@ -2,11 +2,11 @@
 
 import { motion } from "framer-motion";
 import { certifications } from "@/data/portfolio";
-import { useLanguage } from "@/context/LanguageContext";
+import { useTranslation } from "react-i18next";
 import { Award } from "lucide-react";
 
 export default function Certifications() {
-  const { t } = useLanguage();
+  const { t } = useTranslation();
 
   return (
     <section id="certifications" className="py-20 bg-gray-50 dark:bg-gray-900">
@@ -18,7 +18,7 @@ export default function Certifications() {
           transition={{ duration: 0.5 }}
           className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center"
         >
-          {t.certifications.title}
+          {t("certifications.title")}
         </motion.h2>
 
         <motion.p
@@ -28,7 +28,7 @@ export default function Certifications() {
           transition={{ duration: 0.5 }}
           className="text-gray-600 dark:text-gray-400 text-center text-justify mb-12 text-lg max-w-2xl mx-auto"
         >
-          {t.certifications.description}
+          {t("certifications.description")}
         </motion.p>
 
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">

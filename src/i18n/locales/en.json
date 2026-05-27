@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "hero": {
+    "hello": "Hello, I am",
+    "title": "Backend, DevOps & Agentic AI Engineer",
+    "location": "Barcelona, Spain",
+    "contactMe": "Contact Me",
+    "moreAboutMe": "More about me"
+  },
+  "about": {
+    "title": "About Me",
+    "summary": "Backend, DevOps & Agentic AI Engineer with experience in designing and implementing scalable architectures. Specialized in Java, Go, and Node.js with a strong focus on cloud-native solutions, CI/CD, and automation.",
+    "summary2": "Passionate about building robust and scalable systems. I enjoy solving complex problems and working with modern technologies to deliver high-quality solutions.",
+    "whatIDo": "What I Do",
+    "backend": "Backend Development with Java, Go & Node.js",
+    "cloud": "Cloud Architecture on AWS & GCP",
+    "containers": "Containerization & Orchestration (Docker, K8s)",
+    "cicd": "CI/CD Pipeline Design & Implementation",
+    "iac": "Infrastructure as Code with Terraform",
+    "yearsExperience": "Years experience",
+    "workExperience": "Work experience"
+  },
+  "experience": {
+    "title": "Experience",
+    "description": "Over the past years, I have been working on designing and developing scalable backend systems, implementing microservices architectures, and automating infrastructure. My roles have focused on building robust APIs, managing cloud environments, and improving development workflows through CI/CD practices.",
+    "nter": {
+      "position": "Backend Engineer",
+      "description": [
+        "Designed and developed a scalable system to automatically validate code submissions, reducing manual correction time.",
+        "Built backend microservices using Java Spring Boot with asynchronous communication via RabbitMQ.",
+        "Orchestration of containerized applications using Docker and Kubernetes.",
+        "Integrated CI/CD pipelines (GitLab) and automated infrastructure on AWS."
+      ]
+    },
+    "feeder": {
+      "position": "Backend Developer",
+      "description": [
+        "Developed and maintained REST APIs in a microservices architecture using Spring Boot and NestJS communicated with RabbitMQ.",
+        "Migration from monolith to microservices, applying Hexagonal Architecture and DDD.",
+        "Designed and managed relational and non-relational databases (MySQL, PostgreSQL, MongoDB, Redis).",
+        "Implemented CI/CD pipelines and deployed cloud infrastructure on AWS."
+      ]
+    },
+    "foxize": {
+      "position": "Fullstack Developer",
+      "description": [
+        "Developed and maintained a SaaS e-learning platform using Symfony (PHP).",
+        "Applied SOLID principles and improved code maintainability.",
+        "Development of frontend functionalities with HTML, CSS, and JavaScript with Twig templates."
+      ]
+    }
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "languages": "Languages",
+    "frameworks": "Frameworks",
+    "databases": "Databases",
+    "devops": "DevOps",
+    "tools": "Tools",
+    "testing": "Testing",
+    "architectures": "Architectures",
+    "ai": "AI",
+    "other": "Other"
+  },
+  "certifications": {
+    "title": "Certifications",
+    "description": "Currently I am getting additional cloud and infrastructure certifications to further enhance my knowledge and expertise."
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "I am open to new opportunities. Feel free to reach out if you would like to know more about my work, or you think we could discuss for potential collaborations.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location"
+  },
+  "footer": {
+    "builtWith": "Built by"
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "goHome": "Go Home"
+  }
+}

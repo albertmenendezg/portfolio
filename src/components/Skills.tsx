@@ -2,15 +2,16 @@
 
 import { motion } from "framer-motion";
 import { skills } from "@/data/portfolio";
-import { useLanguage } from "@/context/LanguageContext";
+import { useTranslation } from "react-i18next";
 import {
   Code2, Box, Database, Cloud, Wrench, TestTube2,
-  Puzzle, Terminal
+  Puzzle, Terminal, Sparkles
 } from "lucide-react";
 
 const skillCategoriesKeys = [
   { key: "languages", items: skills.languages, color: "text-emerald-600 dark:text-emerald-400", bg: "bg-emerald-500/10", icon: Code2 },
   { key: "frameworks", items: skills.frameworks, color: "text-blue-600 dark:text-blue-400", bg: "bg-blue-500/10", icon: Box },
+  { key: "ai", items: skills.ai, color: "text-violet-600 dark:text-violet-400", bg: "bg-violet-500/10", icon: Sparkles },
   { key: "databases", items: skills.databases, color: "text-purple-600 dark:text-purple-400", bg: "bg-purple-500/10", icon: Database },
   { key: "devops", items: skills.devops, color: "text-orange-600 dark:text-orange-400", bg: "bg-orange-500/10", icon: Cloud },
   { key: "tools", items: skills.tools, color: "text-pink-600 dark:text-pink-400", bg: "bg-pink-500/10", icon: Wrench },
@@ -20,7 +21,7 @@ const skillCategoriesKeys = [
 ];
 
 export default function Skills() {
-  const { t } = useLanguage();
+  const { t } = useTranslation();
 
   return (
     <section id="skills" className="py-20 bg-white dark:bg-gray-950">
@@ -32,7 +33,7 @@ export default function Skills() {
           transition={{ duration: 0.5 }}
           className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center"
         >
-          {t.skills.title}
+                  {t("skills.title")}
         </motion.h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -50,7 +51,7 @@ export default function Skills() {
               >
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center">
                   <Icon className={`w-5 h-5 ${category.color} mr-2`} />
-                  {t.skills[category.key as keyof typeof t.skills]}
+                  {t(`skills.${category.key}`)}
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {category.items.map((skill) => (

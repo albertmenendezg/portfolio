@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { LanguageProvider } from "@/context/LanguageContext";
 import { ThemeProvider } from "@/context/ThemeContext";
+import I18nProvider from "@/i18n/I18nProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,9 +24,9 @@ export default function RootLayout({
     <html lang="en" className="dark scroll-smooth">
       <body className={`${inter.className} antialiased bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100`}>
         <ThemeProvider>
-          <LanguageProvider>
+          <I18nProvider>
             {children}
-          </LanguageProvider>
+          </I18nProvider>
         </ThemeProvider>
       </body>
     </html>

@@ -1,15 +1,25 @@
 "use client";
 
-import { useLanguage } from "@/context/LanguageContext";
+import { useTranslation } from "react-i18next";
 import { Globe } from "lucide-react";
 
-const languages = [
+type Language = {
+  code: string,
+  label: string
+}
+
+const languages:Language[] = [
   { code: "en", label: "EN" },
   { code: "es", label: "ES" }
 ];
 
 export default function LanguageSelector() {
-  const { language, setLanguage } = useLanguage();
+  const { i18n } = useTranslation();
+
+  const handleChangeLanguage = (lang: Language) => {
+    localStorage.setItem("lang", lang.code);
+    i18n.changeLanguage(lang.code);
+  };
 
   return (
     <div className="relative flex items-center space-x-1 bg-gray-100 dark:bg-gray-800 rounded-lg p-1">
@@ -17,9 +27,9 @@ export default function LanguageSelector() {
       {languages.map((lang) => (
         <button
           key={lang.code}
-          onClick={() => setLanguage(lang.code as "en" | "es")}
+          onClick={() => handleChangeLanguage(lang)}
           className={`px-2 py-1 text-xs font-medium rounded cursor-pointer transition-colors ${
-            language === lang.code
+            i18n.language === lang.code
               ? "bg-emerald-500 text-gray-900"
               : "text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
           }`}
