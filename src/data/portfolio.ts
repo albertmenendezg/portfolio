@@ -12,7 +12,7 @@ export const experience = [
   {
     id: 1,
     company: "Nter Tech Services",
-    period: "May 2025 - Present",
+    periodKey: "experience.nter.period",
     positionKey: "experience.nter.position",
     projects: [
       {
@@ -34,7 +34,7 @@ export const experience = [
   {
     id: 2,
     company: "Feeder The Reaction SaaS",
-    period: "Oct 2022 - Apr 2025",
+    periodKey: "experience.feeder.period",
     positionKey: "experience.feeder.position",
     projects: [
       {
@@ -56,7 +56,7 @@ export const experience = [
   {
     id: 3,
     company: "Foxize Cloud",
-    period: "Sep 2021 - Oct 2022",
+    periodKey: "experience.foxize.period",
     positionKey: "experience.foxize.position",
     projects: [
       {

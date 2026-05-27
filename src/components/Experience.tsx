@@ -40,7 +40,7 @@ export default function Experience() {
             <div className="absolute left-5 top-0 bottom-0 w-px bg-gray-300 dark:bg-gray-700" />
 
             {experience.map((job, index) => {
-              const year = extractYears(job.period);
+              const year = extractYears(t(job.periodKey));
 
               return (
                 <motion.div
@@ -63,7 +63,7 @@ export default function Experience() {
                         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                           {t(job.positionKey)}
                         </h3>
-                        <span className="text-gray-500 font-mono text-sm whitespace-nowrap">{job.period}</span>
+                        <span className="text-gray-500 font-mono text-sm whitespace-nowrap">{t(job.periodKey)}</span>
                       </div>
                       <p className="text-emerald-600 dark:text-emerald-400 text-sm mb-4">{job.company}</p>
 
