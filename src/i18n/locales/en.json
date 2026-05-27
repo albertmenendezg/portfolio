@@ -35,7 +35,7 @@
         "oysho": {
           "name": "Oysho",
           "period": "Apr 2026 - Present",
-          "description": "Internal migration of legacy systems to modern Java Spring Boot and React with clean code, Kafka, and Agentic AI.",
+          "description": "Internal backoffice for Oysho: migration of legacy systems to modern Java Spring Boot and React with clean code, Kafka, and Agentic AI.",
           "tasks": [
             "Led internal migration of legacy systems to modern Java Spring Boot and React versions.",
             "Applied clean code principles and hexagonal architecture to improve maintainability.",
