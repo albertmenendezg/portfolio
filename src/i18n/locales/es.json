@@ -2,6 +2,7 @@
   "nav": {
     "about": "Sobre mí",
     "experience": "Experiencia",
+    "education": "Formación",
     "skills": "Habilidades",
     "certifications": "Certificaciones",
     "contact": "Contacto"
@@ -28,7 +29,7 @@
   },
   "experience": {
     "title": "Experiencia",
-    "description": "Durante los últimos años, he estado trabajando en el diseño y desarrollo de sistemas backend escalables, implementando arquitecturas de microservicios y automatizando infraestructura. Mis roles se han centrado en construir APIs robustas, gestionar entornos cloud y mejorar los flujos de desarrollo mediante prácticas CI/CD.",
+    "description": "Durante los últimos años, he estado trabajando en el diseño y desarrollo de sistemas backend escalables, implementando arquitecturas de microservicios y automatizando infraestructura. Mis roles se han centrado en construir APIs robustas, gestionar entornos cloud y mejorar los flujos de desarrollo mediante prácticas CI/CD. Integro activamente herramientas de IA Agéntica en mi flujo de trabajo para acelerar el desarrollo, automatizar tareas repetitivas y mejorar la calidad del código.",
     "nter": {
       "position": "Ingeniero Backend",
       "projects": {
@@ -100,6 +101,20 @@
     }
   },
   "present": "Presente",
+  "education": {
+    "title": "Formación",
+    "entries": {
+      "dam": {
+        "degree": "Grado Superior en Desarrollo de Aplicaciones Multiplataforma"
+      },
+      "devops-cloud": {
+        "degree": "Programa Avanzado DevOps & Cloud"
+      },
+      "daw": {
+        "degree": "Grado Superior en Desarrollo de Aplicaciones Web"
+      }
+    }
+  },
   "skills": {
     "title": "Habilidades y Tecnologías",
     "languages": "Lenguajes",

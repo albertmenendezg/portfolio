@@ -21,6 +21,7 @@ export default function Navbar() {
   const navItems = [
     { name: t("nav.about"), id: "about" },
     { name: t("nav.experience"), id: "experience" },
+    { name: t("nav.education"), id: "education" },
     { name: t("nav.skills"), id: "skills" },
     { name: t("nav.certifications"), id: "certifications" },
     { name: t("nav.contact"), id: "contact" },

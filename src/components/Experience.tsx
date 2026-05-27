@@ -37,7 +37,7 @@ export default function Experience() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-gray-600 dark:text-gray-400 text-center text-justify mb-12 max-w-2xl mx-auto"
+          className="text-gray-600 dark:text-gray-400 text-center text-justify mb-12 max-w-4xl mx-auto"
         >
           {t("experience.description")}
         </motion.p>

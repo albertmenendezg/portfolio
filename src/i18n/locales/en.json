@@ -2,6 +2,7 @@
   "nav": {
     "about": "About",
     "experience": "Experience",
+    "education": "Education",
     "skills": "Skills",
     "certifications": "Certifications",
     "contact": "Contact"
@@ -28,7 +29,7 @@
   },
   "experience": {
     "title": "Experience",
-    "description": "Over the past years, I have been working on designing and developing scalable backend systems, implementing microservices architectures, and automating infrastructure. My roles have focused on building robust APIs, managing cloud environments, and improving development workflows through CI/CD practices.",
+    "description": "Over the past years, I have been working on designing and developing scalable backend systems, implementing microservices architectures, and automating infrastructure. My roles have focused on building robust APIs, managing cloud environments, and improving development workflows through CI/CD practices. I actively integrate Agentic AI tools into my workflow to accelerate development, automate repetitive tasks, and improve code quality.",
     "nter": {
       "position": "Backend Engineer",
       "projects": {
@@ -100,6 +101,20 @@
     }
   },
   "present": "Present",
+  "education": {
+    "title": "Education",
+    "entries": {
+      "dam": {
+        "degree": "Higher Degree in Multiplatform Application Development"
+      },
+      "devops-cloud": {
+        "degree": "Advanced DevOps & Cloud Program"
+      },
+      "daw": {
+        "degree": "Higher Degree in Web Application Development"
+      }
+    }
+  },
   "skills": {
     "title": "Skills & Technologies",
     "languages": "Languages",

@@ -90,6 +90,30 @@ export const skills = {
   other: ["Git", "GitHub", "GitLab", "Bitbucket", "Linux", "Grafana", "RabbitMQ", "Kafka"]
 };
 
+export const education = [
+  {
+    id: 1,
+    degreeKey: "education.entries.daw.degree",
+    institution: "DigitechFP",
+    startDate: new Date(Date.UTC(2025, 8, 1)),
+    endDate: new Date(Date.UTC(2026, 5, 1)),
+  },
+  {
+    id: 2,
+    degreeKey: "education.entries.devops-cloud.degree",
+    institution: "UNIR",
+    startDate: new Date(Date.UTC(2024, 2, 1)),
+    endDate: new Date(Date.UTC(2025, 10, 1)),
+  },
+  {
+    id: 3,
+    degreeKey: "education.entries.dam.degree",
+    institution: "STUCOM",
+    startDate: new Date(Date.UTC(2020, 8, 1)),
+    endDate: new Date(Date.UTC(2022, 5, 1)),
+  },
+];
+
 export const certifications = [
   {
     id: 1,
