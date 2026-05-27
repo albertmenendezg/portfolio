@@ -93,10 +93,10 @@ export const skills = {
 export const education = [
   {
     id: 1,
-    degreeKey: "education.entries.daw.degree",
-    institution: "DigitechFP",
-    startDate: new Date(Date.UTC(2025, 8, 1)),
-    endDate: new Date(Date.UTC(2026, 5, 1)),
+    degreeKey: "education.entries.daw-stucom.degree",
+    institution: "STUCOM",
+    startDate: new Date(Date.UTC(2020, 8, 1)),
+    endDate: new Date(Date.UTC(2022, 5, 1)),
   },
   {
     id: 2,
@@ -107,10 +107,10 @@ export const education = [
   },
   {
     id: 3,
-    degreeKey: "education.entries.dam.degree",
-    institution: "STUCOM",
-    startDate: new Date(Date.UTC(2020, 8, 1)),
-    endDate: new Date(Date.UTC(2022, 5, 1)),
+    degreeKey: "education.entries.daw-digitech.degree",
+    institution: "DigitechFP",
+    startDate: new Date(Date.UTC(2025, 8, 1)),
+    endDate: new Date(Date.UTC(2026, 5, 1)),
   },
 ];
 

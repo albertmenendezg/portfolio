@@ -104,13 +104,13 @@
   "education": {
     "title": "Education",
     "entries": {
-      "dam": {
-        "degree": "Higher Degree in Multiplatform Application Development"
+      "daw-stucom": {
+        "degree": "Higher Degree in Web Application Development"
       },
       "devops-cloud": {
         "degree": "Advanced DevOps & Cloud Program"
       },
-      "daw": {
+      "daw-digitech": {
         "degree": "Higher Degree in Web Application Development"
       }
     }
