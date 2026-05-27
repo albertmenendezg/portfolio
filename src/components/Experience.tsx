@@ -91,8 +91,8 @@ export default function Experience() {
                           </p>
                           <ul className="space-y-1 mb-3">
                             {Array.isArray(tasks) && tasks.map((task: string, idx: number) => (
-                              <li key={idx} className="text-gray-600 dark:text-gray-400 text-sm flex items-start">
-                                <span className="text-emerald-600 dark:text-emerald-400 mr-2 mt-1">▹</span>
+                              <li key={idx} className="text-gray-600 dark:text-gray-400 text-sm flex items-baseline">
+                                <span className="text-emerald-600 dark:text-emerald-400 mr-2">▹</span>
                                 <span className="text-gray-700 dark:text-gray-300">{task}</span>
                               </li>
                             ))}
