@@ -16,9 +16,9 @@ No test framework is configured. `npm run build` includes TypeScript compilation
 
 Single-page portfolio with anchor-based smooth scrolling. Built with Next.js 16 App Router, configured for **static export** (`output: "export"` in next.config.ts) — no server-side features.
 
-**Data flow**: All content lives in `src/data/portfolio.ts` (personal info, experience, skills, certifications). All UI strings live in `src/data/translations.ts` (English + Spanish). Components read from these files; there are no API calls.
+**Data flow**: All content lives in `src/data/portfolio.ts` (personal info, experience, skills, certifications). All UI strings live in `src/i18n/locales/{en,es}.json`. Components read from these files; there are no API calls.
 
-**i18n**: `LanguageContext.tsx` holds the active language (`en`/`es`). Every component calls `useLanguage()` to get both the language state and the translation key lookup. The `LanguageSelector` in Navbar toggles this context.
+**i18n**: Uses `react-i18next` (i18next + react-i18next). The i18n instance is initialized in `src/i18n/i18n.ts` and provided via `<I18nProvider>` in the root layout. Components call `useTranslation()` to get the `t` function (e.g. `t("skills.title")`). The `LanguageSelector` calls `i18n.changeLanguage()` and persists the choice to `localStorage` under the key `"lang"`. On page load, `I18nProvider` reads `localStorage` to restore the previous selection.
 
 **All components use `"use client"`** — there are no server components beyond the root layout.
 

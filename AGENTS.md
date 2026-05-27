@@ -10,6 +10,7 @@ This is a Next.js 16 portfolio website built with:
 - **Animations**: Framer Motion
 - **Icons**: Lucide React
 - **Forms**: React Hook Form
+- **i18n**: react-i18next (i18next + react-i18next) with JSON locale files
 
 ## Build Commands
 
@@ -52,8 +53,7 @@ Then add to package.json scripts:
   ```typescript
   import { motion } from "framer-motion";
   import { experience } from "@/data/portfolio";
-  import { translations } from "@/data/translations";
-  import { useLanguage } from "@/context/LanguageContext";
+  import { useTranslation } from "react-i18next";
   ```
 
 ### Formatting
@@ -107,15 +107,18 @@ export default function ComponentName({ title, onAction }: Props) {
 }
 ```
 
-### Error Handling
+### i18n
 
-- Use React Context with custom hooks for global state
-- Throw descriptive errors in context hooks:
+- Translations are stored in `src/i18n/locales/{en,es}.json`
+- Components use `useTranslation()` from `react-i18next`:
   ```typescript
-  if (!context) {
-    throw new Error("useLanguage must be used within a LanguageProvider");
-  }
+  import { useTranslation } from "react-i18next";
+
+  const { t } = useTranslation();
+  // Access: t("skills.title"), t("hero.hello")
   ```
+- Language switching: `i18n.changeLanguage("en" | "es")` persisted to localStorage key `"lang"`
+- The i18n instance is initialized in `src/i18n/i18n.ts` and provided via `I18nProvider` in the root layout
 
 ### Tailwind CSS
 
@@ -144,10 +147,15 @@ src/
 │   ├── Skills.tsx
 │   └── ...
 ├── context/              # React Context providers
-│   └── LanguageContext.tsx
+│   └── ThemeContext.tsx
 ├── data/                 # Static data
-│   ├── portfolio.ts
-│   └── translations.ts
+│   └── portfolio.ts
+├── i18n/                 # Internationalization
+│   ├── I18nProvider.tsx  # Client component wrapper
+│   ├── i18n.ts            # i18next configuration
+│   └── locales/
+│       ├── en.json       # English translations
+│       └── es.json       # Spanish translations
 ```
 
 ## Linting & Type Checking
@@ -164,6 +172,7 @@ No separate typecheck command exists; Next.js build includes TypeScript compilat
 
 1. Create components in `src/components/`
 2. Add data to appropriate files in `src/data/`
-3. Use context for global state (see `LanguageContext.tsx`)
-4. Test with `npm run dev`
-5. Verify with `npm run lint` and `npm run build`
+3. Add translations keys to `src/i18n/locales/{en,es}.json`
+4. Use `useTranslation()` from `react-i18next` to access translations
+5. Test with `npm run dev`
+6. Verify with `npm run lint` and `npm run build`

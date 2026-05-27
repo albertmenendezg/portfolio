@@ -14,6 +14,7 @@ This is my personal portfolio built with modern web technologies. It showcases m
 - **Animations**: Framer Motion
 - **Forms**: React Hook Form
 - **Icons**: Lucide React
+- **i18n**: react-i18next with JSON locale files
 
 ## Features
 
@@ -47,7 +48,7 @@ npm start
 - **Hero**: Introduction and social links
 - **About**: Personal info, years of experience, projects count
 - **Experience**: Work history with tech stack
-- **Skills**: Technologies organized by category
+- **Skills**: Technologies organized by category (including AI section)
 - **Certifications**: Professional certifications with links
 - **Contact**: Contact information links
 
