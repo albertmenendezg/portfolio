@@ -30,7 +30,6 @@
     "title": "Experience",
     "description": "Over the past years, I have been working on designing and developing scalable backend systems, implementing microservices architectures, and automating infrastructure. My roles have focused on building robust APIs, managing cloud environments, and improving development workflows through CI/CD practices.",
     "nter": {
-      "period": "May 2025 - Present",
       "position": "Backend Engineer",
       "projects": {
         "oysho": {
@@ -58,7 +57,6 @@
       }
     },
     "feeder": {
-      "period": "Oct 2022 - Apr 2025",
       "position": "Backend Developer",
       "projects": {
         "feeder-health": {
@@ -86,7 +84,6 @@
       }
     },
     "foxize": {
-      "period": "Sep 2021 - Oct 2022",
       "position": "Fullstack Developer",
       "projects": {
         "foxize-cloud": {
@@ -102,6 +99,7 @@
       }
     }
   },
+  "present": "Present",
   "skills": {
     "title": "Skills & Technologies",
     "languages": "Languages",

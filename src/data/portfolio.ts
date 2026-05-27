@@ -12,21 +12,24 @@ export const experience = [
   {
     id: 1,
     company: "Nter Tech Services",
-    periodKey: "experience.nter.period",
+    startDate: new Date(Date.UTC(2025, 4, 1)),
+    endDate: null,
     positionKey: "experience.nter.position",
     projects: [
       {
         nameKey: "experience.nter.projects.oysho.name",
         descriptionKey: "experience.nter.projects.oysho.description",
         tasksKey: "experience.nter.projects.oysho.tasks",
-        periodKey: "experience.nter.projects.oysho.period",
+        startDate: new Date(Date.UTC(2026, 3, 1)),
+        endDate: null,
         tech: ["Java", "SpringBoot", "React", "Kafka", "Docker", "AWS", "GitHub Actions"]
       },
       {
         nameKey: "experience.nter.projects.codebench.name",
         descriptionKey: "experience.nter.projects.codebench.description",
         tasksKey: "experience.nter.projects.codebench.tasks",
-        periodKey: "experience.nter.projects.codebench.period",
+        startDate: new Date(Date.UTC(2025, 8, 1)),
+        endDate: new Date(Date.UTC(2026, 3, 1)),
         tech: ["Java", "SpringBoot", "RabbitMQ", "Docker", "Kubernetes", "MiniKube", "AWS", "Python", "Git", "GitLab"]
       }
     ]
@@ -34,21 +37,24 @@ export const experience = [
   {
     id: 2,
     company: "Feeder The Reaction SaaS",
-    periodKey: "experience.feeder.period",
+    startDate: new Date(Date.UTC(2022, 9, 1)),
+    endDate: new Date(Date.UTC(2025, 3, 1)),
     positionKey: "experience.feeder.position",
     projects: [
       {
         nameKey: "experience.feeder.projects.feeder-health.name",
         descriptionKey: "experience.feeder.projects.feeder-health.description",
         tasksKey: "experience.feeder.projects.feeder-health.tasks",
-        periodKey: "experience.feeder.projects.feeder-health.period",
+        startDate: new Date(Date.UTC(2024, 8, 1)),
+        endDate: new Date(Date.UTC(2025, 3, 1)),
         tech: ["NestJS", "RabbitMQ", "WebSockets", "Socket.io", "AWS", "React", "TypeScript", "Bitbucket"]
       },
       {
         nameKey: "experience.feeder.projects.feeder-metrics.name",
         descriptionKey: "experience.feeder.projects.feeder-metrics.description",
         tasksKey: "experience.feeder.projects.feeder-metrics.tasks",
-        periodKey: "experience.feeder.projects.feeder-metrics.period",
+        startDate: new Date(Date.UTC(2022, 9, 1)),
+        endDate: new Date(Date.UTC(2024, 8, 1)),
         tech: ["Spring Boot", "Java", "TypeScript", "Node.js", "RabbitMQ", "MySQL", "MongoDB", "Redis", "Docker", "Linux", "AWS", "Git", "BitBucket"]
       }
     ]
@@ -56,14 +62,16 @@ export const experience = [
   {
     id: 3,
     company: "Foxize Cloud",
-    periodKey: "experience.foxize.period",
+    startDate: new Date(Date.UTC(2021, 8, 1)),
+    endDate: new Date(Date.UTC(2022, 9, 1)),
     positionKey: "experience.foxize.position",
     projects: [
       {
         nameKey: "experience.foxize.projects.foxize-cloud.name",
         descriptionKey: "experience.foxize.projects.foxize-cloud.description",
         tasksKey: "experience.foxize.projects.foxize-cloud.tasks",
-        periodKey: "experience.foxize.projects.foxize-cloud.period",
+        startDate: new Date(Date.UTC(2021, 8, 1)),
+        endDate: new Date(Date.UTC(2022, 9, 1)),
         tech: ["Symfony", "PHP", "Twig", "JavaScript", "MySQL", "Docker", "Linux", "HTML", "CSS", "Bootstrap", "Git", "GitLab"]
       }
     ]
