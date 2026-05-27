@@ -32,9 +32,10 @@
     "nter": {
       "position": "Ingeniero Backend",
       "projects": {
-        "main": {
-          "name": "Plataforma de Validación de Código",
-          "description": [
+        "codebench": {
+          "name": "Codebench",
+          "description": "Sistema escalable para la validación automática de código en entornos educativos.",
+          "tasks": [
             "Diseñé y desarrollé un sistema escalable para validar automáticamente envíos de código, reduciendo el tiempo de corrección manual.",
             "Construí microservicios backend usando Java Spring Boot con comunicación asíncrona vía RabbitMQ.",
             "Orquestación de aplicaciones containerizadas usando Docker y Kubernetes.",
@@ -46,10 +47,16 @@
     "feeder": {
       "position": "Desarrollador Backend",
       "projects": {
-        "main": {
-          "name": "Plataforma de Gestión de Redes Sociales",
-          "description": [
-            "Desarrollé y mantuve APIs REST en arquitectura de microservicios usando Spring Boot y NestJS comunicados con RabbitMQ.",
+        "feeder-health": {
+          "name": "Feeder Health",
+          "description": "",
+          "tasks": []
+        },
+        "feeder-metrics": {
+          "name": "Feeder Metrics",
+          "description": "Plataforma para que audiencias de marketing validen spots publicitarios mediante análisis de microexpresiones faciales.",
+          "tasks": [
+            "Desarrollé y mantuve APIs REST en arquitectura de microservicios usando NestJS comunicados con RabbitMQ.",
             "Migración de monolito a microservicios, aplicando Arquitectura Hexagonal y DDD.",
             "Diseñé y gestioné bases de datos relacionales y no relacionales (MySQL, PostgreSQL, MongoDB, Redis).",
             "Implementé pipelines CI/CD e infraestructura cloud en AWS."
@@ -60,9 +67,10 @@
     "foxize": {
       "position": "Desarrollador Fullstack",
       "projects": {
-        "main": {
-          "name": "Plataforma SaaS de E-learning",
-          "description": [
+        "foxize-cloud": {
+          "name": "Foxize Cloud",
+          "description": "Plataforma SaaS de e-learning para creación y gestión de cursos online.",
+          "tasks": [
             "Desarrollé y mantuve una plataforma SaaS de e-learning usando Symfony (PHP).",
             "Apliqué principios SOLID y mejoré la mantenibilidad del código.",
             "Desarrollo de funcionalidades frontend con HTML, CSS y JavaScript con plantillas Twig."

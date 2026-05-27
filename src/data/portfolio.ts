@@ -16,8 +16,9 @@ export const experience = [
     positionKey: "experience.nter.position",
     projects: [
       {
-        nameKey: "experience.nter.projects.main",
+        nameKey: "experience.nter.projects.main.name",
         descriptionKey: "experience.nter.projects.main.description",
+        tasksKey: "experience.nter.projects.main.tasks",
         tech: ["Java", "SpringBoot", "RabbitMQ", "Docker", "Kubernetes", "MiniKube", "AWS", "Python", "Git", "GitLab"]
       }
     ]
@@ -29,8 +30,9 @@ export const experience = [
     positionKey: "experience.feeder.position",
     projects: [
       {
-        nameKey: "experience.feeder.projects.main",
+        nameKey: "experience.feeder.projects.main.name",
         descriptionKey: "experience.feeder.projects.main.description",
+        tasksKey: "experience.feeder.projects.main.tasks",
         tech: ["Spring Boot", "Java", "TypeScript", "Node.js", "NestJS", "RabbitMQ", "MySQL", "MongoDB", "Redis", "Docker", "Linux", "AWS", "Git", "BitBucket"]
       }
     ]
@@ -42,8 +44,9 @@ export const experience = [
     positionKey: "experience.foxize.position",
     projects: [
       {
-        nameKey: "experience.foxize.projects.main",
+        nameKey: "experience.foxize.projects.main.name",
         descriptionKey: "experience.foxize.projects.main.description",
+        tasksKey: "experience.foxize.projects.main.tasks",
         tech: ["Symfony", "PHP", "Twig", "JavaScript", "MySQL", "Docker", "Linux", "HTML", "CSS", "Bootstrap", "Git", "GitLab"]
       }
     ]

@@ -34,7 +34,8 @@
       "projects": {
         "main": {
           "name": "Code Submission Validation Platform",
-          "description": [
+          "description": "Scalable system for automatic code validation in educational environments.",
+          "tasks": [
             "Designed and developed a scalable system to automatically validate code submissions, reducing manual correction time.",
             "Built backend microservices using Java Spring Boot with asynchronous communication via RabbitMQ.",
             "Orchestration of containerized applications using Docker and Kubernetes.",
@@ -47,8 +48,9 @@
       "position": "Backend Developer",
       "projects": {
         "main": {
-          "name": "Social Media Management Platform",
-          "description": [
+          "name": "Ad Validation & Audience Engagement Platform",
+          "description": "Platform for marketing audiences to validate advertising spots through facial micro-expression analysis.",
+          "tasks": [
             "Developed and maintained REST APIs in a microservices architecture using Spring Boot and NestJS communicated with RabbitMQ.",
             "Migration from monolith to microservices, applying Hexagonal Architecture and DDD.",
             "Designed and managed relational and non-relational databases (MySQL, PostgreSQL, MongoDB, Redis).",
@@ -62,7 +64,8 @@
       "projects": {
         "main": {
           "name": "E-learning SaaS Platform",
-          "description": [
+          "description": "SaaS e-learning platform for online course creation and management.",
+          "tasks": [
             "Developed and maintained a SaaS e-learning platform using Symfony (PHP).",
             "Applied SOLID principles and improved code maintainability.",
             "Development of frontend functionalities with HTML, CSS, and JavaScript with Twig templates."
