@@ -4,8 +4,10 @@ import { motion } from "framer-motion";
 import { experience } from "@/data/portfolio";
 import { useTranslation } from "react-i18next";
 
-const formatDate = (date: Date, locale: string) =>
-  new Intl.DateTimeFormat(locale, { month: "short", year: "numeric" }).format(date);
+const formatDate = (date: Date, locale: string) => {
+  const formatted = new Intl.DateTimeFormat(locale, { month: "short", year: "numeric" }).format(date);
+  return formatted.charAt(0).toUpperCase() + formatted.slice(1);
+};
 
 const formatPeriod = (start: Date, end: Date | null, locale: string, presentLabel: string) => {
   const s = formatDate(start, locale);
