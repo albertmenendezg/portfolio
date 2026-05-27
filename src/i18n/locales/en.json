@@ -47,8 +47,13 @@
     "feeder": {
       "position": "Backend Developer",
       "projects": {
-        "main": {
-          "name": "Ad Validation & Audience Engagement Platform",
+        "feeder-health": {
+          "name": "Feeder Health",
+          "description": "",
+          "tasks": []
+        },
+        "feeder-metrics": {
+          "name": "Feeder Metrics",
           "description": "Platform for marketing audiences to validate advertising spots through facial micro-expression analysis.",
           "tasks": [
             "Developed and maintained REST APIs in a microservices architecture using Spring Boot and NestJS communicated with RabbitMQ.",

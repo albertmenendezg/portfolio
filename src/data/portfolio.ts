@@ -30,9 +30,15 @@ export const experience = [
     positionKey: "experience.feeder.position",
     projects: [
       {
-        nameKey: "experience.feeder.projects.main.name",
-        descriptionKey: "experience.feeder.projects.main.description",
-        tasksKey: "experience.feeder.projects.main.tasks",
+        nameKey: "experience.feeder.projects.feeder-health.name",
+        descriptionKey: "experience.feeder.projects.feeder-health.description",
+        tasksKey: "experience.feeder.projects.feeder-health.tasks",
+        tech: []
+      },
+      {
+        nameKey: "experience.feeder.projects.feeder-metrics.name",
+        descriptionKey: "experience.feeder.projects.feeder-metrics.description",
+        tasksKey: "experience.feeder.projects.feeder-metrics.tasks",
         tech: ["Spring Boot", "Java", "TypeScript", "Node.js", "NestJS", "RabbitMQ", "MySQL", "MongoDB", "Redis", "Docker", "Linux", "AWS", "Git", "BitBucket"]
       }
     ]
