@@ -107,7 +107,7 @@ export const education = [
   },
   {
     id: 3,
-    degreeKey: "education.entries.daw-digitech.degree",
+    degreeKey: "education.entries.dam-digitech.degree",
     institution: "DigitechFP",
     startDate: new Date(Date.UTC(2025, 8, 1)),
     endDate: new Date(Date.UTC(2026, 5, 1)),
