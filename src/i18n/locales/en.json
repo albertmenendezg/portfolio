@@ -32,8 +32,13 @@
     "nter": {
       "position": "Backend Engineer",
       "projects": {
-        "main": {
-          "name": "Code Submission Validation Platform",
+        "oysho": {
+          "name": "Oysho",
+          "description": "",
+          "tasks": []
+        },
+        "codebench": {
+          "name": "Codebench",
           "description": "Scalable system for automatic code validation in educational environments.",
           "tasks": [
             "Designed and developed a scalable system to automatically validate code submissions, reducing manual correction time.",

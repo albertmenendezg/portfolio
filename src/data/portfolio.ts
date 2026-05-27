@@ -16,9 +16,15 @@ export const experience = [
     positionKey: "experience.nter.position",
     projects: [
       {
-        nameKey: "experience.nter.projects.main.name",
-        descriptionKey: "experience.nter.projects.main.description",
-        tasksKey: "experience.nter.projects.main.tasks",
+        nameKey: "experience.nter.projects.oysho.name",
+        descriptionKey: "experience.nter.projects.oysho.description",
+        tasksKey: "experience.nter.projects.oysho.tasks",
+        tech: []
+      },
+      {
+        nameKey: "experience.nter.projects.codebench.name",
+        descriptionKey: "experience.nter.projects.codebench.description",
+        tasksKey: "experience.nter.projects.codebench.tasks",
         tech: ["Java", "SpringBoot", "RabbitMQ", "Docker", "Kubernetes", "MiniKube", "AWS", "Python", "Git", "GitLab"]
       }
     ]

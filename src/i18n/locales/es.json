@@ -32,6 +32,11 @@
     "nter": {
       "position": "Ingeniero Backend",
       "projects": {
+        "oysho": {
+          "name": "Oysho",
+          "description": "",
+          "tasks": []
+        },
         "codebench": {
           "name": "Codebench",
           "description": "Sistema escalable para la validación automática de código en entornos educativos.",
