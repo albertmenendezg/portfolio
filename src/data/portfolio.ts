@@ -11,30 +11,42 @@ export const personalInfo = {
 export const experience = [
   {
     id: 1,
-    companyKey: "experience.nter.company",
     company: "Nter Tech Services",
-    positionKey: "experience.nter.position",
     period: "May 2025 - Present",
-    descriptionKey: "experience.nter.description",
-    tech: ["Java", "SpringBoot", "RabbitMQ", "Docker", "Kubernetes", "MiniKube", "AWS", "Python", "Git", "GitLab"]
+    positionKey: "experience.nter.position",
+    projects: [
+      {
+        nameKey: "experience.nter.projects.main",
+        descriptionKey: "experience.nter.projects.main.description",
+        tech: ["Java", "SpringBoot", "RabbitMQ", "Docker", "Kubernetes", "MiniKube", "AWS", "Python", "Git", "GitLab"]
+      }
+    ]
   },
   {
     id: 2,
-    companyKey: "experience.feeder.company",
     company: "Feeder The Reaction SaaS",
-    positionKey: "experience.feeder.position",
     period: "Oct 2022 - Apr 2025",
-    descriptionKey: "experience.feeder.description",
-    tech: ["Spring Boot", "Java", "TypeScript", "Node.js", "NestJS", "RabbitMQ", "MySQL", "MongoDB", "Redis", "Docker", "Linux", "AWS", "Git", "BitBucket"]
+    positionKey: "experience.feeder.position",
+    projects: [
+      {
+        nameKey: "experience.feeder.projects.main",
+        descriptionKey: "experience.feeder.projects.main.description",
+        tech: ["Spring Boot", "Java", "TypeScript", "Node.js", "NestJS", "RabbitMQ", "MySQL", "MongoDB", "Redis", "Docker", "Linux", "AWS", "Git", "BitBucket"]
+      }
+    ]
   },
   {
     id: 3,
-    companyKey: "experience.foxize.company",
     company: "Foxize Cloud",
-    positionKey: "experience.foxize.position",
     period: "Sep 2021 - Oct 2022",
-    descriptionKey: "experience.foxize.description",
-    tech: ["Symfony", "PHP", "Twig", "JavaScript", "MySQL", "Docker", "Linux", "HTML", "CSS", "Bootstrap", "Git", "GitLab"]
+    positionKey: "experience.foxize.position",
+    projects: [
+      {
+        nameKey: "experience.foxize.projects.main",
+        descriptionKey: "experience.foxize.projects.main.description",
+        tech: ["Symfony", "PHP", "Twig", "JavaScript", "MySQL", "Docker", "Linux", "HTML", "CSS", "Bootstrap", "Git", "GitLab"]
+      }
+    ]
   }
 ];
 

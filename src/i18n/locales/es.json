@@ -31,29 +31,44 @@
     "description": "Durante los últimos años, he estado trabajando en el diseño y desarrollo de sistemas backend escalables, implementando arquitecturas de microservicios y automatizando infraestructura. Mis roles se han centrado en construir APIs robustas, gestionar entornos cloud y mejorar los flujos de desarrollo mediante prácticas CI/CD.",
     "nter": {
       "position": "Ingeniero Backend",
-      "description": [
-        "Diseñé y desarrollé un sistema escalable para validar automáticamente envíos de código, reduciendo el tiempo de corrección manual.",
-        "Construí microservicios backend usando Java Spring Boot con comunicación asíncrona vía RabbitMQ.",
-        "Orquestación de aplicaciones containerizadas usando Docker y Kubernetes.",
-        "Integré pipelines CI/CD (GitLab) e infraestructura automatizada en AWS."
-      ]
+      "projects": {
+        "main": {
+          "name": "Plataforma de Validación de Código",
+          "description": [
+            "Diseñé y desarrollé un sistema escalable para validar automáticamente envíos de código, reduciendo el tiempo de corrección manual.",
+            "Construí microservicios backend usando Java Spring Boot con comunicación asíncrona vía RabbitMQ.",
+            "Orquestación de aplicaciones containerizadas usando Docker y Kubernetes.",
+            "Integré pipelines CI/CD (GitLab) e infraestructura automatizada en AWS."
+          ]
+        }
+      }
     },
     "feeder": {
       "position": "Desarrollador Backend",
-      "description": [
-        "Desarrollé y mantuve APIs REST en arquitectura de microservicios usando Spring Boot y NestJS comunicados con RabbitMQ.",
-        "Migración de monolito a microservicios, aplicando Arquitectura Hexagonal y DDD.",
-        "Diseñé y gestioné bases de datos relacionales y no relacionales (MySQL, PostgreSQL, MongoDB, Redis).",
-        "Implementé pipelines CI/CD e infraestructura cloud en AWS."
-      ]
+      "projects": {
+        "main": {
+          "name": "Plataforma de Gestión de Redes Sociales",
+          "description": [
+            "Desarrollé y mantuve APIs REST en arquitectura de microservicios usando Spring Boot y NestJS comunicados con RabbitMQ.",
+            "Migración de monolito a microservicios, aplicando Arquitectura Hexagonal y DDD.",
+            "Diseñé y gestioné bases de datos relacionales y no relacionales (MySQL, PostgreSQL, MongoDB, Redis).",
+            "Implementé pipelines CI/CD e infraestructura cloud en AWS."
+          ]
+        }
+      }
     },
     "foxize": {
       "position": "Desarrollador Fullstack",
-      "description": [
-        "Desarrollé y mantuve una plataforma SaaS de e-learning usando Symfony (PHP).",
-        "Apliqué principios SOLID y mejoré la mantenibilidad del código.",
-        "Desarrollo de funcionalidades frontend con HTML, CSS y JavaScript con plantillas Twig."
-      ]
+      "projects": {
+        "main": {
+          "name": "Plataforma SaaS de E-learning",
+          "description": [
+            "Desarrollé y mantuve una plataforma SaaS de e-learning usando Symfony (PHP).",
+            "Apliqué principios SOLID y mejoré la mantenibilidad del código.",
+            "Desarrollo de funcionalidades frontend con HTML, CSS y JavaScript con plantillas Twig."
+          ]
+        }
+      }
     }
   },
   "skills": {

@@ -31,29 +31,44 @@
     "description": "Over the past years, I have been working on designing and developing scalable backend systems, implementing microservices architectures, and automating infrastructure. My roles have focused on building robust APIs, managing cloud environments, and improving development workflows through CI/CD practices.",
     "nter": {
       "position": "Backend Engineer",
-      "description": [
-        "Designed and developed a scalable system to automatically validate code submissions, reducing manual correction time.",
-        "Built backend microservices using Java Spring Boot with asynchronous communication via RabbitMQ.",
-        "Orchestration of containerized applications using Docker and Kubernetes.",
-        "Integrated CI/CD pipelines (GitLab) and automated infrastructure on AWS."
-      ]
+      "projects": {
+        "main": {
+          "name": "Code Submission Validation Platform",
+          "description": [
+            "Designed and developed a scalable system to automatically validate code submissions, reducing manual correction time.",
+            "Built backend microservices using Java Spring Boot with asynchronous communication via RabbitMQ.",
+            "Orchestration of containerized applications using Docker and Kubernetes.",
+            "Integrated CI/CD pipelines (GitLab) and automated infrastructure on AWS."
+          ]
+        }
+      }
     },
     "feeder": {
       "position": "Backend Developer",
-      "description": [
-        "Developed and maintained REST APIs in a microservices architecture using Spring Boot and NestJS communicated with RabbitMQ.",
-        "Migration from monolith to microservices, applying Hexagonal Architecture and DDD.",
-        "Designed and managed relational and non-relational databases (MySQL, PostgreSQL, MongoDB, Redis).",
-        "Implemented CI/CD pipelines and deployed cloud infrastructure on AWS."
-      ]
+      "projects": {
+        "main": {
+          "name": "Social Media Management Platform",
+          "description": [
+            "Developed and maintained REST APIs in a microservices architecture using Spring Boot and NestJS communicated with RabbitMQ.",
+            "Migration from monolith to microservices, applying Hexagonal Architecture and DDD.",
+            "Designed and managed relational and non-relational databases (MySQL, PostgreSQL, MongoDB, Redis).",
+            "Implemented CI/CD pipelines and deployed cloud infrastructure on AWS."
+          ]
+        }
+      }
     },
     "foxize": {
       "position": "Fullstack Developer",
-      "description": [
-        "Developed and maintained a SaaS e-learning platform using Symfony (PHP).",
-        "Applied SOLID principles and improved code maintainability.",
-        "Development of frontend functionalities with HTML, CSS, and JavaScript with Twig templates."
-      ]
+      "projects": {
+        "main": {
+          "name": "E-learning SaaS Platform",
+          "description": [
+            "Developed and maintained a SaaS e-learning platform using Symfony (PHP).",
+            "Applied SOLID principles and improved code maintainability.",
+            "Development of frontend functionalities with HTML, CSS, and JavaScript with Twig templates."
+          ]
+        }
+      }
     }
   },
   "skills": {

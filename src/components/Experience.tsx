@@ -7,11 +7,6 @@ import { useTranslation } from "react-i18next";
 export default function Experience() {
   const { t } = useTranslation();
 
-  const getDescription = (key: string): string[] => {
-    const result = t(key, { returnObjects: true }) as string[];
-    return Array.isArray(result) ? result : [];
-  };
-
   const extractYears = (period: string) => {
     const match = period.match(/(\d{4})/g);
     return match ? match[0] : "";
@@ -46,7 +41,6 @@ export default function Experience() {
 
             {experience.map((job, index) => {
               const year = extractYears(job.period);
-              const position = t(job.positionKey);
 
               return (
                 <motion.div
@@ -63,33 +57,45 @@ export default function Experience() {
                     </div>
                   </div>
 
-                  <div className="flex-1">
-                    <div className="bg-white dark:bg-gray-950 p-5 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-emerald-500/50 dark:hover:border-emerald-400/50 transition-colors">
+                  <div className="flex-1 space-y-4">
+                    <div className="bg-white dark:bg-gray-950 p-5 rounded-lg border border-gray-200 dark:border-gray-800">
                       <div className="flex items-center justify-between mb-2 flex-wrap gap-2">
                         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                          {position}
+                          {t(job.positionKey)}
                         </h3>
                         <span className="text-gray-500 font-mono text-sm whitespace-nowrap">{job.period}</span>
                       </div>
-                      <p className="text-emerald-600 dark:text-emerald-400 text-sm mb-3">{job.company}</p>
-                      <ul className="space-y-1 mb-3">
-                        {getDescription(job.descriptionKey).map((desc: string, idx: number) => (
-                          <li key={idx} className="text-gray-600 dark:text-gray-400 text-sm flex items-start">
-                            <span className="text-emerald-600 dark:text-emerald-400 mr-2 mt-1">▹</span>
-                            <span className="text-gray-700 dark:text-gray-300">{desc}</span>
-                          </li>
-                        ))}
-                      </ul>
-                      <div className="flex flex-wrap gap-1.5">
-                        {job.tech?.map((tech: string) => (
-                          <span
-                            key={tech}
-                            className="px-2 py-0.5 bg-gray-100 dark:bg-gray-800 text-emerald-700 dark:text-emerald-400 text-xs rounded"
-                          >
-                            {tech}
-                          </span>
-                        ))}
-                      </div>
+                      <p className="text-emerald-600 dark:text-emerald-400 text-sm mb-4">{job.company}</p>
+
+                      {job.projects.map((project, pIdx) => {
+                        const descriptions = t(project.descriptionKey, { returnObjects: true }) as string[];
+
+                        return (
+                          <div key={pIdx} className={pIdx > 0 ? "mt-4 pt-4 border-t border-gray-200 dark:border-gray-800" : ""}>
+                            <h4 className="font-medium text-gray-800 dark:text-gray-200 mb-2">
+                              {t(project.nameKey)}
+                            </h4>
+                            <ul className="space-y-1 mb-3">
+                              {Array.isArray(descriptions) && descriptions.map((desc: string, idx: number) => (
+                                <li key={idx} className="text-gray-600 dark:text-gray-400 text-sm flex items-start">
+                                  <span className="text-emerald-600 dark:text-emerald-400 mr-2 mt-1">▹</span>
+                                  <span className="text-gray-700 dark:text-gray-300">{desc}</span>
+                                </li>
+                              ))}
+                            </ul>
+                            <div className="flex flex-wrap gap-1.5">
+                              {project.tech?.map((tech) => (
+                                <span
+                                  key={tech}
+                                  className="px-2 py-0.5 bg-gray-100 dark:bg-gray-800 text-emerald-700 dark:text-emerald-400 text-xs rounded"
+                                >
+                                  {tech}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        );
+                      })}
                     </div>
                   </div>
                 </motion.div>
