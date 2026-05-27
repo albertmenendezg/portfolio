@@ -19,14 +19,14 @@ export const experience = [
         nameKey: "experience.nter.projects.oysho.name",
         descriptionKey: "experience.nter.projects.oysho.description",
         tasksKey: "experience.nter.projects.oysho.tasks",
-        period: "Apr 2026 - Present",
+        periodKey: "experience.nter.projects.oysho.period",
         tech: ["Java", "SpringBoot", "React", "Kafka", "Docker", "AWS"]
       },
       {
         nameKey: "experience.nter.projects.codebench.name",
         descriptionKey: "experience.nter.projects.codebench.description",
         tasksKey: "experience.nter.projects.codebench.tasks",
-        period: "Sep 2025 - Apr 2026",
+        periodKey: "experience.nter.projects.codebench.period",
         tech: ["Java", "SpringBoot", "RabbitMQ", "Docker", "Kubernetes", "MiniKube", "AWS", "Python", "Git", "GitLab"]
       }
     ]
@@ -41,14 +41,14 @@ export const experience = [
         nameKey: "experience.feeder.projects.feeder-health.name",
         descriptionKey: "experience.feeder.projects.feeder-health.description",
         tasksKey: "experience.feeder.projects.feeder-health.tasks",
-        period: "Sept 2024 - Apr 2025",
+        periodKey: "experience.feeder.projects.feeder-health.period",
         tech: ["NestJS", "RabbitMQ", "WebSockets", "Socket.io", "AWS", "React", "TypeScript", "Bitbucket"]
       },
       {
         nameKey: "experience.feeder.projects.feeder-metrics.name",
         descriptionKey: "experience.feeder.projects.feeder-metrics.description",
         tasksKey: "experience.feeder.projects.feeder-metrics.tasks",
-        period: "Oct 2022 - Sept 2024",
+        periodKey: "experience.feeder.projects.feeder-metrics.period",
         tech: ["Spring Boot", "Java", "TypeScript", "Node.js", "RabbitMQ", "MySQL", "MongoDB", "Redis", "Docker", "Linux", "AWS", "Git", "BitBucket"]
       }
     ]
@@ -60,10 +60,10 @@ export const experience = [
     positionKey: "experience.foxize.position",
     projects: [
       {
-        nameKey: "experience.foxize.projects.main.name",
-        descriptionKey: "experience.foxize.projects.main.description",
-        tasksKey: "experience.foxize.projects.main.tasks",
-        period: "Sep 2021 - Oct 2022",
+        nameKey: "experience.foxize.projects.foxize-cloud.name",
+        descriptionKey: "experience.foxize.projects.foxize-cloud.description",
+        tasksKey: "experience.foxize.projects.foxize-cloud.tasks",
+        periodKey: "experience.foxize.projects.foxize-cloud.period",
         tech: ["Symfony", "PHP", "Twig", "JavaScript", "MySQL", "Docker", "Linux", "HTML", "CSS", "Bootstrap", "Git", "GitLab"]
       }
     ]

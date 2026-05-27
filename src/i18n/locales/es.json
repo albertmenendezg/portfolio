@@ -34,6 +34,7 @@
       "projects": {
         "oysho": {
           "name": "Oysho",
+          "period": "Abr 2026 - Presente",
           "description": "Migración interna de sistemas legacy a versiones modernas de Java Spring Boot y React con clean code, Kafka e IA Agéntica.",
           "tasks": [
             "Lideré la migración interna de sistemas legacy a versiones modernas de Java Spring Boot y React.",
@@ -44,6 +45,7 @@
         },
         "codebench": {
           "name": "Codebench",
+          "period": "Sep 2025 - Abr 2026",
           "description": "Sistema escalable para la validación automática de código en entornos educativos.",
           "tasks": [
             "Diseñé y desarrollé un sistema escalable para validar automáticamente envíos de código, reduciendo el tiempo de corrección manual.",
@@ -59,6 +61,7 @@
       "projects": {
         "feeder-health": {
           "name": "Feeder Health",
+          "period": "Sept 2024 - Abr 2025",
           "description": "Plataforma para profesionales de la salud para monitorizar métricas de pacientes mediante una extensión de Chrome y consultas por videoconferencia, con un dashboard interactivo de análisis de microexpresiones faciales.",
           "tasks": [
             "Desarrollé una extensión de Chrome para capturar microexpresiones de pacientes durante consultas por videoconferencia.",
@@ -69,6 +72,7 @@
         },
         "feeder-metrics": {
           "name": "Feeder Metrics",
+          "period": "Oct 2022 - Sept 2024",
           "description": "Plataforma para que audiencias de marketing validen spots publicitarios mediante análisis de microexpresiones faciales.",
           "tasks": [
             "Desarrollé y mantuve APIs REST en arquitectura de microservicios usando NestJS comunicados con RabbitMQ.",
@@ -84,6 +88,7 @@
       "projects": {
         "foxize-cloud": {
           "name": "Foxize Cloud",
+          "period": "Sep 2021 - Oct 2022",
           "description": "Plataforma SaaS de e-learning para creación y gestión de cursos online.",
           "tasks": [
             "Desarrollé y mantuve una plataforma SaaS de e-learning usando Symfony (PHP).",

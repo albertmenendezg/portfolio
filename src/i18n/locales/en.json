@@ -34,6 +34,7 @@
       "projects": {
         "oysho": {
           "name": "Oysho",
+          "period": "Apr 2026 - Present",
           "description": "Internal migration of legacy systems to modern Java Spring Boot and React with clean code, Kafka, and Agentic AI.",
           "tasks": [
             "Led internal migration of legacy systems to modern Java Spring Boot and React versions.",
@@ -44,6 +45,7 @@
         },
         "codebench": {
           "name": "Codebench",
+          "period": "Sep 2025 - Apr 2026",
           "description": "Scalable system for automatic code validation in educational environments.",
           "tasks": [
             "Designed and developed a scalable system to automatically validate code submissions, reducing manual correction time.",
@@ -59,6 +61,7 @@
       "projects": {
         "feeder-health": {
           "name": "Feeder Health",
+          "period": "Sept 2024 - Apr 2025",
           "description": "Platform for healthcare professionals to track patient metrics via a Chrome extension and video consultations, with an interactive dashboard for facial micro-expression analysis.",
           "tasks": [
             "Developed a Chrome extension to capture patient micro-expressions during video consultations.",
@@ -69,6 +72,7 @@
         },
         "feeder-metrics": {
           "name": "Feeder Metrics",
+          "period": "Oct 2022 - Sept 2024",
           "description": "Platform for marketing audiences to validate advertising spots through facial micro-expression analysis.",
           "tasks": [
             "Developed and maintained REST APIs in a microservices architecture using Spring Boot and NestJS communicated with RabbitMQ.",
@@ -82,8 +86,9 @@
     "foxize": {
       "position": "Fullstack Developer",
       "projects": {
-        "main": {
-          "name": "E-learning SaaS Platform",
+        "foxize-cloud": {
+          "name": "Foxize Cloud",
+          "period": "Sep 2021 - Oct 2022",
           "description": "SaaS e-learning platform for online course creation and management.",
           "tasks": [
             "Developed and maintained a SaaS e-learning platform using Symfony (PHP).",

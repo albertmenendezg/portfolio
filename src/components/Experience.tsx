@@ -76,7 +76,7 @@ export default function Experience() {
                               <h4 className="font-medium text-gray-800 dark:text-gray-200">
                                 {t(project.nameKey)}
                               </h4>
-                              <span className="text-gray-500 font-mono text-xs whitespace-nowrap">{project.period}</span>
+                              <span className="text-gray-500 font-mono text-xs whitespace-nowrap">{t(project.periodKey)}</span>
                             </div>
                             <p className="text-gray-600 dark:text-gray-400 text-sm mb-3">
                               {t(project.descriptionKey)}
