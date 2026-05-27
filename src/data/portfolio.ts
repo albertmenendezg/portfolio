@@ -19,14 +19,14 @@ export const experience = [
         nameKey: "experience.nter.projects.oysho.name",
         descriptionKey: "experience.nter.projects.oysho.description",
         tasksKey: "experience.nter.projects.oysho.tasks",
-        period: "Jan 2025 - Present",
+        period: "Apr 2026 - Present",
         tech: ["Java", "SpringBoot", "React", "Kafka", "Docker", "AWS"]
       },
       {
         nameKey: "experience.nter.projects.codebench.name",
         descriptionKey: "experience.nter.projects.codebench.description",
         tasksKey: "experience.nter.projects.codebench.tasks",
-        period: "May 2025 - Present",
+        period: "Sep 2025 - Apr 2026",
         tech: ["Java", "SpringBoot", "RabbitMQ", "Docker", "Kubernetes", "MiniKube", "AWS", "Python", "Git", "GitLab"]
       }
     ]
@@ -41,14 +41,14 @@ export const experience = [
         nameKey: "experience.feeder.projects.feeder-health.name",
         descriptionKey: "experience.feeder.projects.feeder-health.description",
         tasksKey: "experience.feeder.projects.feeder-health.tasks",
-        period: "Jan 2023 - Dec 2024",
+        period: "Sept 2024 - Apr 2025",
         tech: ["NestJS", "RabbitMQ", "WebSockets", "Socket.io", "AWS", "React", "TypeScript", "Bitbucket"]
       },
       {
         nameKey: "experience.feeder.projects.feeder-metrics.name",
         descriptionKey: "experience.feeder.projects.feeder-metrics.description",
         tasksKey: "experience.feeder.projects.feeder-metrics.tasks",
-        period: "Oct 2022 - Apr 2025",
+        period: "Oct 2022 - Sept 2024",
         tech: ["Spring Boot", "Java", "TypeScript", "Node.js", "RabbitMQ", "MySQL", "MongoDB", "Redis", "Docker", "Linux", "AWS", "Git", "BitBucket"]
       }
     ]
