@@ -19,7 +19,7 @@ export const experience = [
         nameKey: "experience.nter.projects.oysho.name",
         descriptionKey: "experience.nter.projects.oysho.description",
         tasksKey: "experience.nter.projects.oysho.tasks",
-        tech: []
+        tech: ["Java", "SpringBoot", "React", "Kafka", "Docker", "AWS"]
       },
       {
         nameKey: "experience.nter.projects.codebench.name",
