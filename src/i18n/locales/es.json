@@ -59,8 +59,13 @@
       "projects": {
         "feeder-health": {
           "name": "Feeder Health",
-          "description": "",
-          "tasks": []
+          "description": "Plataforma para profesionales de la salud para monitorizar métricas de pacientes mediante una extensión de Chrome y consultas por videoconferencia, con un dashboard interactivo de análisis de microexpresiones faciales.",
+          "tasks": [
+            "Desarrollé una extensión de Chrome para capturar microexpresiones de pacientes durante consultas por videoconferencia.",
+            "Construí un backend con NestJS y RabbitMQ para procesamiento asíncrono de análisis facial.",
+            "Implementé dashboards en tiempo real con WebSockets y Socket.io para seguimiento de evolución de pacientes.",
+            "Desplegué en AWS con pipelines CI/CD via Bitbucket."
+          ]
         },
         "feeder-metrics": {
           "name": "Feeder Metrics",

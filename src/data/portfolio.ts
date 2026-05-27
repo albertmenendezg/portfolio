@@ -39,7 +39,7 @@ export const experience = [
         nameKey: "experience.feeder.projects.feeder-health.name",
         descriptionKey: "experience.feeder.projects.feeder-health.description",
         tasksKey: "experience.feeder.projects.feeder-health.tasks",
-        tech: []
+        tech: ["NestJS", "RabbitMQ", "WebSockets", "Socket.io", "AWS", "React", "TypeScript", "Bitbucket"]
       },
       {
         nameKey: "experience.feeder.projects.feeder-metrics.name",

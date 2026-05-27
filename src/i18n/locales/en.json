@@ -59,8 +59,13 @@
       "projects": {
         "feeder-health": {
           "name": "Feeder Health",
-          "description": "",
-          "tasks": []
+          "description": "Platform for healthcare professionals to track patient metrics via a Chrome extension and video consultations, with an interactive dashboard for facial micro-expression analysis.",
+          "tasks": [
+            "Developed a Chrome extension to capture patient micro-expressions during video consultations.",
+            "Built a NestJS backend with RabbitMQ for async processing of facial analysis data.",
+            "Implemented real-time dashboards using WebSockets and Socket.io for live patient evolution tracking.",
+            "Deployed on AWS with CI/CD pipelines via Bitbucket."
+          ]
         },
         "feeder-metrics": {
           "name": "Feeder Metrics",
