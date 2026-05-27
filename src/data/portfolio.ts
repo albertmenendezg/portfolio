@@ -45,7 +45,7 @@ export const experience = [
         nameKey: "experience.feeder.projects.feeder-metrics.name",
         descriptionKey: "experience.feeder.projects.feeder-metrics.description",
         tasksKey: "experience.feeder.projects.feeder-metrics.tasks",
-        tech: ["Spring Boot", "Java", "TypeScript", "Node.js", "NestJS", "RabbitMQ", "MySQL", "MongoDB", "Redis", "Docker", "Linux", "AWS", "Git", "BitBucket"]
+        tech: ["Spring Boot", "Java", "TypeScript", "Node.js", "RabbitMQ", "MySQL", "MongoDB", "Redis", "Docker", "Linux", "AWS", "Git", "BitBucket"]
       }
     ]
   },
