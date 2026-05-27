@@ -99,6 +99,10 @@ export default function About() {
                   <span className="text-emerald-600 dark:text-emerald-400 mr-2">▹</span>
                   <span className="text-gray-600 dark:text-gray-400">{t("about.iac")}</span>
                 </li>
+                <li className="flex items-start">
+                  <span className="text-emerald-600 dark:text-emerald-400 mr-2">▹</span>
+                  <span className="text-gray-600 dark:text-gray-400">{t("about.agentic")}</span>
+                </li>
               </ul>
             </motion.div>
           </motion.div>

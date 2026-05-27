@@ -24,6 +24,7 @@
     "containers": "Contenedores y Orquestación (Docker, K8s)",
     "cicd": "Diseño e Implementación de Pipelines CI/CD",
     "iac": "Infraestructura como Código con Terraform",
+    "agentic": "Desarrollo y Automatizaciones con IA Agéntica",
     "yearsExperience": "Años de experiencia",
     "workExperience": "Experiencias laborales"
   },
