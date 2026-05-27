@@ -55,7 +55,7 @@ export default function Education() {
                 <div className="flex-1">
                   <motion.div
                     whileHover={{ scale: 1.02 }}
-                    className="bg-gray-50 dark:bg-gray-900 p-5 rounded-lg border border-gray-200 dark:border-gray-800"
+                    className="bg-gray-50 dark:bg-gray-900 p-5 rounded-lg border border-gray-200 dark:border-gray-800 cursor-pointer"
                   >
                     <div className="flex items-center justify-between mb-2 flex-wrap gap-2">
                       <h3 className="text-lg font-semibold text-gray-900 dark:text-white">

@@ -64,7 +64,7 @@ export default function Experience() {
                 <div className="flex-1 space-y-4">
                   <motion.div
                     whileHover={{ scale: 1.02 }}
-                    className="bg-white dark:bg-gray-950 p-5 rounded-lg border border-gray-200 dark:border-gray-800"
+                    className="bg-white dark:bg-gray-950 p-5 rounded-lg border border-gray-200 dark:border-gray-800 cursor-pointer"
                   >
                     <div className="flex items-center justify-between mb-2 flex-wrap gap-2">
                       <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
