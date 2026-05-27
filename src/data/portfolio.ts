@@ -19,12 +19,14 @@ export const experience = [
         nameKey: "experience.nter.projects.oysho.name",
         descriptionKey: "experience.nter.projects.oysho.description",
         tasksKey: "experience.nter.projects.oysho.tasks",
+        period: "Jan 2025 - Present",
         tech: ["Java", "SpringBoot", "React", "Kafka", "Docker", "AWS"]
       },
       {
         nameKey: "experience.nter.projects.codebench.name",
         descriptionKey: "experience.nter.projects.codebench.description",
         tasksKey: "experience.nter.projects.codebench.tasks",
+        period: "May 2025 - Present",
         tech: ["Java", "SpringBoot", "RabbitMQ", "Docker", "Kubernetes", "MiniKube", "AWS", "Python", "Git", "GitLab"]
       }
     ]
@@ -39,12 +41,14 @@ export const experience = [
         nameKey: "experience.feeder.projects.feeder-health.name",
         descriptionKey: "experience.feeder.projects.feeder-health.description",
         tasksKey: "experience.feeder.projects.feeder-health.tasks",
+        period: "Jan 2023 - Dec 2024",
         tech: ["NestJS", "RabbitMQ", "WebSockets", "Socket.io", "AWS", "React", "TypeScript", "Bitbucket"]
       },
       {
         nameKey: "experience.feeder.projects.feeder-metrics.name",
         descriptionKey: "experience.feeder.projects.feeder-metrics.description",
         tasksKey: "experience.feeder.projects.feeder-metrics.tasks",
+        period: "Oct 2022 - Apr 2025",
         tech: ["Spring Boot", "Java", "TypeScript", "Node.js", "RabbitMQ", "MySQL", "MongoDB", "Redis", "Docker", "Linux", "AWS", "Git", "BitBucket"]
       }
     ]
@@ -59,6 +63,7 @@ export const experience = [
         nameKey: "experience.foxize.projects.main.name",
         descriptionKey: "experience.foxize.projects.main.description",
         tasksKey: "experience.foxize.projects.main.tasks",
+        period: "Sep 2021 - Oct 2022",
         tech: ["Symfony", "PHP", "Twig", "JavaScript", "MySQL", "Docker", "Linux", "HTML", "CSS", "Bootstrap", "Git", "GitLab"]
       }
     ]

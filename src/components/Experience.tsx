@@ -72,9 +72,12 @@ export default function Experience() {
 
                         return (
                           <div key={pIdx} className={pIdx > 0 ? "mt-4 pt-4 border-t border-gray-200 dark:border-gray-800" : ""}>
-                            <h4 className="font-medium text-gray-800 dark:text-gray-200 mb-1">
-                              {t(project.nameKey)}
-                            </h4>
+                            <div className="flex items-center justify-between flex-wrap gap-1">
+                              <h4 className="font-medium text-gray-800 dark:text-gray-200">
+                                {t(project.nameKey)}
+                              </h4>
+                              <span className="text-gray-500 font-mono text-xs whitespace-nowrap">{project.period}</span>
+                            </div>
                             <p className="text-gray-600 dark:text-gray-400 text-sm mb-3">
                               {t(project.descriptionKey)}
                             </p>
