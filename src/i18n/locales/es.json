@@ -34,8 +34,13 @@
       "projects": {
         "oysho": {
           "name": "Oysho",
-          "description": "",
-          "tasks": []
+          "description": "Migración interna de sistemas legacy a versiones modernas de Java Spring Boot y React con clean code, Kafka e IA Agéntica.",
+          "tasks": [
+            "Lideré la migración interna de sistemas legacy a versiones modernas de Java Spring Boot y React.",
+            "Apliqué principios de clean code y arquitectura hexagonal para mejorar la mantenibilidad.",
+            "Implementé comunicación basada en eventos con Kafka.",
+            "Integré capacidades de IA Agéntica para automatizar flujos de trabajo."
+          ]
         },
         "codebench": {
           "name": "Codebench",
