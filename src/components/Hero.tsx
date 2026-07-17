@@ -1,7 +1,7 @@
 "use client";
 
 import { personalInfo } from "@/data/portfolio";
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -82,7 +82,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="flex items-center justify-center space-x-4"
+            className="flex flex-wrap items-center justify-center gap-4"
           >
             <a
               href="#contact"
@@ -90,6 +90,15 @@ export default function Hero() {
             >
               {t("hero.contactMe")}
               <ArrowRight className="ml-2 w-4 h-4" />
+            </a>
+            <a
+              href="https://assets.albertmenendez.com/AlbertMenendezCV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-gray-900 font-semibold rounded-lg transition-colors"
+            >
+              {t("hero.downloadCV")}
+              <Download className="ml-2 w-4 h-4" />
             </a>
             <a
               href="#about"
