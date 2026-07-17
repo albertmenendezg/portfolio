@@ -6,7 +6,10 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 export default function Hero() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const cvUrl = i18n.language === "es"
+    ? "https://assets.albertmenendez.com/AlbertMenendezCV_ES.pdf"
+    : "https://assets.albertmenendez.com/AlbertMenendezCV_EN.pdf"
 
   return (
     <section className="min-h-screen flex items-center justify-center pt-16 bg-gradient-to-b from-white via-gray-50 to-white dark:from-gray-950 dark:via-gray-900 dark:to-gray-950">
@@ -92,7 +95,7 @@ export default function Hero() {
               <ArrowRight className="ml-2 w-4 h-4" />
             </a>
             <a
-              href="https://assets.albertmenendez.com/AlbertMenendezCV.pdf"
+              href={cvUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-gray-900 font-semibold rounded-lg transition-colors"
