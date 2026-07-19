@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { projects } from "@/data/portfolio";
 
@@ -77,8 +77,7 @@ export default function Projects() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 px-6 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white rounded-lg transition-colors text-sm font-medium"
               >
-                <Github className="w-4 h-4" />
-                <span>Live Site</span>
+                <span>{t("projects.portfolio.liveSite")}</span>
                 <ExternalLink className="w-4 h-4" />
               </a>
             </motion.div>

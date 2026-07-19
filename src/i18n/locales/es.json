@@ -139,6 +139,7 @@
     "portfolio": {
       "name": "Portfolio Web",
       "description": "Portfolio personal construido con Next.js y desplegado en AWS. El sitio se aloja en un bucket S3, se sirve a través de CloudFront CDN con un dominio personalizado gestionado mediante Route 53. Una función Lambda escrita en Go, invocada mediante API Gateway, usa SES para gestionar el envío de correos desde el formulario de contacto. El CV se publica automáticamente en un bucket S3 separado (assets-albertmenendez) mediante GitHub Actions, distribuido también a través de CloudFront y Route 53.",
+      "liveSite": "Sitio Web",
       "highlights": {
         "website": "Sitio estático Next.js desplegado en S3, servido vía CloudFront con dominio personalizado en Route 53",
         "lambda": "Función Lambda en Go invocada mediante API Gateway, usando SES para el envío de correos del formulario de contacto",
