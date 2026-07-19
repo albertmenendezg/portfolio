@@ -24,7 +24,7 @@ export default function Skills() {
   const { t } = useTranslation();
 
   return (
-    <section id="skills" className="py-20 bg-white dark:bg-gray-950">
+    <section id="skills" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}

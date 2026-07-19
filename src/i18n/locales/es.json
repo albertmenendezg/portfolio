@@ -152,7 +152,23 @@
     "description": "Estoy abierto a nuevas oportunidades. No dudes en contactarme si quieres saber más sobre mi trabajo o si crees que podríamos hablar sobre posibles colaboraciones.",
     "email": "Email",
     "phone": "Teléfono",
-    "location": "Ubicación"
+    "location": "Ubicación",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "send": "Enviar petición de contacto",
+      "sending": "Enviando...",
+      "sent": "¡Enviado!",
+      "error": "Error al enviar el mensaje. Inténtalo de nuevo.",
+      "nameRequired": "El nombre es obligatorio",
+      "namePattern": "El nombre solo puede contener letras",
+      "emailRequired": "El email es obligatorio",
+      "emailInvalid": "Email inválido",
+      "subjectRequired": "El asunto es obligatorio",
+      "messageRequired": "El mensaje es obligatorio"
+    }
   },
   "footer": {
     "builtWith": "Creado por"

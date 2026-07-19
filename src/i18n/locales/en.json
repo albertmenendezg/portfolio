@@ -152,7 +152,23 @@
     "description": "I am open to new opportunities. Feel free to reach out if you would like to know more about my work, or you think we could discuss for potential collaborations.",
     "email": "Email",
     "phone": "Phone",
-    "location": "Location"
+    "location": "Location",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send contact request",
+      "sending": "Sending...",
+      "sent": "Sent!",
+      "error": "Failed to send message. Please try again.",
+      "nameRequired": "Name is required",
+      "namePattern": "Name can only contain letters",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "subjectRequired": "Subject is required",
+      "messageRequired": "Message is required"
+    }
   },
   "footer": {
     "builtWith": "Built by"
