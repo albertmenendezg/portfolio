@@ -114,6 +114,23 @@ export const education = [
   },
 ];
 
+export const projects = [
+  {
+    id: 1,
+    nameKey: "projects.portfolio.name",
+    descriptionKey: "projects.portfolio.description",
+    highlights: [
+      { textKey: "projects.portfolio.highlights.website", link: "https://github.com/albertmenendezg/portfolio" },
+      { textKey: "projects.portfolio.highlights.lambda", link: "https://github.com/albertmenendezg/portfolio-contact-lamda" },
+      { textKey: "projects.portfolio.highlights.cv", link: "https://github.com/albertmenendezg/CV" },
+    ],
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Go", "AWS S3", "CloudFront", "Route 53", "API Gateway", "AWS Lambda", "AWS SES", "GitHub Actions"],
+    links: {
+      live: "https://albertmenendez.com"
+    }
+  }
+]
+
 export const certifications = [
   {
     id: 1,

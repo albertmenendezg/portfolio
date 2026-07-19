@@ -24,6 +24,7 @@ export default function Navbar() {
     { name: t("nav.education"), id: "education" },
     { name: t("nav.skills"), id: "skills" },
     { name: t("nav.certifications"), id: "certifications" },
+    { name: t("nav.projects"), id: "projects" },
     { name: t("nav.contact"), id: "contact" },
   ];
 

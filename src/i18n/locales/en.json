@@ -5,6 +5,7 @@
     "education": "Education",
     "skills": "Skills",
     "certifications": "Certifications",
+    "projects": "Projects",
     "contact": "Contact"
   },
   "hero": {
@@ -132,6 +133,18 @@
   "certifications": {
     "title": "Certifications",
     "description": "Currently I am getting additional cloud and infrastructure certifications to further enhance my knowledge and expertise."
+  },
+  "projects": {
+    "title": "Projects",
+    "portfolio": {
+      "name": "Portfolio Website",
+      "description": "Personal portfolio built with Next.js and deployed on AWS. The site is hosted on an S3 bucket, served through CloudFront CDN with a custom domain managed via Route 53. A Go-based Lambda function triggered through API Gateway uses SES to handle email sending from the contact form. The CV is automatically published to a separate S3 bucket (assets-albertmenendez) via GitHub Actions, also distributed through CloudFront and Route 53.",
+      "highlights": {
+        "website": "Static Next.js site deployed to S3, served via CloudFront with custom domain on Route 53",
+        "lambda": "Go-based Lambda function triggered via API Gateway, using SES for contact form email processing",
+        "cv": "CV automatically published to assets-albertmenendez S3 bucket via GitHub Actions"
+      }
+    }
   },
   "contact": {
     "title": "Get In Touch",
