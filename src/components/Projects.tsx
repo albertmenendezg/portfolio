@@ -21,6 +21,16 @@ export default function Projects() {
           {t("projects.title")}
         </motion.h2>
 
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-gray-600 dark:text-gray-400 text-justify text-lg mb-12 max-w-2xl mx-auto"
+        >
+          {t("projects.description")}
+        </motion.p>
+
         <div className="grid gap-8 max-w-4xl mx-auto">
           {projects.map((project, index) => (
             <motion.div

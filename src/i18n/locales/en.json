@@ -21,7 +21,7 @@
     "summary": "I am Albert, a Backend, DevOps & Agentic AI Engineer with experience in designing and implementing scalable architectures. Specialized in Java, Go, and Node.js with a strong focus on cloud-native solutions, CI/CD, and automation.",
     "summary2": "Passionate about building robust and scalable systems. I enjoy solving complex problems and working with modern technologies to deliver high-quality solutions.",
     "whatIDo": "What I Do",
-    "backend": "Backend Development with Java, Go & Node.js",
+    "backend": "Backend Development with Java, Node.js, Go & Python",
     "cloud": "Cloud Architecture on AWS & GCP",
     "containers": "Containerization & Orchestration (Docker, K8s)",
     "cicd": "CI/CD Pipeline Design & Implementation",
@@ -106,6 +106,7 @@
   "present": "Present",
   "education": {
     "title": "Education",
+    "description": "Continuous education in software development, cloud computing, and DevOps, combining official degrees with specialized programs to stay current in the tech landscape.",
     "entries": {
 "daw": {
         "degree": "Higher Degree in Web Application Development"
@@ -120,6 +121,7 @@
   },
   "skills": {
     "title": "Skills & Technologies",
+    "description": "Over {{years}} years working with a diverse tech stack spanning backend development, cloud infrastructure, automation, and Agentic AI.",
     "languages": "Languages",
     "frameworks": "Frameworks",
     "databases": "Databases",
@@ -136,6 +138,7 @@
   },
   "projects": {
     "title": "Projects",
+    "description": "Personal and professional projects that reflect my focus on modern architectures, automation, and solid development practices.",
     "portfolio": {
       "name": "Portfolio Website",
       "description": "Personal portfolio built with Next.js and deployed on AWS. The site is hosted on an S3 bucket, served through CloudFront CDN with a custom domain managed via Route 53. A Go-based Lambda function triggered through API Gateway uses SES to handle email sending from the contact form. The CV is automatically published to a separate S3 bucket (assets-albertmenendez) via GitHub Actions, also distributed through CloudFront and Route 53.",

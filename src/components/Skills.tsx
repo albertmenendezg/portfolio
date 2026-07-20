@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { skills } from "@/data/portfolio";
+import { personalInfo, skills } from "@/data/portfolio";
 import { useTranslation } from "react-i18next";
 import {
   Code2, Box, Database, Cloud, Wrench, TestTube2,
@@ -23,6 +23,12 @@ const skillCategoriesKeys = [
 export default function Skills() {
   const { t } = useTranslation();
 
+  const experienceFrom = new Date(personalInfo.startWorking);
+  const currentYear = new Date();
+  const months = (currentYear.getFullYear() - experienceFrom.getFullYear()) * 12
+    + (currentYear.getMonth() - experienceFrom.getMonth());
+  const yearsExperience = Math.floor((months / 12) * 2) / 2;
+
   return (
     <section id="skills" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -35,6 +41,16 @@ export default function Skills() {
         >
                   {t("skills.title")}
         </motion.h2>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-gray-600 dark:text-gray-400 text-justify text-lg mb-12 max-w-2xl mx-auto"
+        >
+          {t("skills.description", { years: yearsExperience })}
+        </motion.p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {skillCategoriesKeys.map((category, index) => {

@@ -34,10 +34,10 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="space-y-4"
           >
-            <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed text-justify">
+            <p className="text-gray-600 dark:text-gray-400 text-lg text-justify">
               {t("about.summary")}
             </p>
-            <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
+            <p className="text-gray-600 dark:text-gray-400 text-lg">
               {t("about.summary2")}
             </p>
             <div className="flex items-center text-gray-600 dark:text-gray-400 pt-4">

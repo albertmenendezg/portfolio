@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { personalInfo } from "@/data/portfolio";
 import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
 import { motion } from "framer-motion";
@@ -15,11 +16,27 @@ export default function Hero() {
     <section className="min-h-screen flex items-center justify-center pt-16 bg-gradient-to-b from-white via-gray-50 to-white dark:from-gray-950 dark:via-gray-900 dark:to-gray-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-center mb-8"
+          >
+            <Image
+              src={personalInfo.photo}
+              alt={personalInfo.name}
+              width={150}
+              height={150}
+              priority
+              className="rounded-full border-4 border-emerald-500 shadow-lg"
+            />
+          </motion.div>
+
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-emerald-600 dark:text-emerald-400 font-mono mb-4 text-4xl"
+            className="text-emerald-600 dark:text-emerald-400 mb-4 text-4xl"
           >
             {t("hero.hello")}
           </motion.p>

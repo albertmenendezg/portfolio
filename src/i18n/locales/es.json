@@ -21,7 +21,7 @@
     "summary": "Soy Albert, Ingeniero Backend, DevOps y Agéntico en IA con experiencia en el diseño e implementación de arquitecturas escalables. Especializado en Java, Go y Node.js con un fuerte enfoque en soluciones cloud-native, CI/CD y automatización.",
     "summary2": "Apasionado por construir sistemas robustos y escalables. Disfruto resolviendo problemas complejos y trabajando con tecnologías modernas para ofrecer soluciones de alta calidad.",
     "whatIDo": "Qué hago",
-    "backend": "Desarrollo Backend con Java, Go y Node.js",
+    "backend": "Desarrollo Backend con Java, Node.js, Go y Python",
     "cloud": "Arquitectura Cloud en AWS y GCP",
     "containers": "Contenedores y Orquestación (Docker, K8s)",
     "cicd": "Diseño e Implementación de Pipelines CI/CD",
@@ -106,6 +106,7 @@
   "present": "Presente",
   "education": {
     "title": "Formación",
+    "description": "Formación continua en desarrollo de software, cloud computing y DevOps, combinando estudios oficiales con programas especializados para mantenerse actualizado en el mercado tecnológico.",
     "entries": {
       "daw": {
         "degree": "Grado Superior en Desarrollo de Aplicaciones Web"
@@ -120,6 +121,7 @@
   },
   "skills": {
     "title": "Habilidades y Tecnologías",
+    "description": "Más de {{years}} años trabajando con un stack tecnológico variado que abarca desde desarrollo backend y cloud hasta automatización e IA Agéntica.",
     "languages": "Lenguajes",
     "frameworks": "Frameworks",
     "databases": "Bases de Datos",
@@ -136,6 +138,7 @@
   },
   "projects": {
     "title": "Proyectos",
+    "description": "Proyectos personales y profesionales que reflejan mi enfoque en arquitecturas modernas, automatización y buenas prácticas de desarrollo.",
     "portfolio": {
       "name": "Portfolio Web",
       "description": "Portfolio personal construido con Next.js y desplegado en AWS. El sitio se aloja en un bucket S3, se sirve a través de CloudFront CDN con un dominio personalizado gestionado mediante Route 53. Una función Lambda escrita en Go, invocada mediante API Gateway, usa SES para gestionar el envío de correos desde el formulario de contacto. El CV se publica automáticamente en un bucket S3 separado (assets-albertmenendez) mediante GitHub Actions, distribuido también a través de CloudFront y Route 53.",
