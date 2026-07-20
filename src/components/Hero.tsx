@@ -25,8 +25,8 @@ export default function Hero() {
             <Image
               src={personalInfo.photo}
               alt={personalInfo.name}
-              width={150}
-              height={150}
+              width={250}
+              height={250}
               priority
               className="rounded-full border-4 border-emerald-500 shadow-lg"
             />
