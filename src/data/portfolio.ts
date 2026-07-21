@@ -89,7 +89,7 @@ export const skills = {
   infrastructure: ["RabbitMQ", "Kafka", "Redis", "AWS SQS", "AWS SNS", "GCP Pub/Sub", "Grafana", "Prometheus", "OpenTelemetry", "AWS CloudWatch", "GCP Cloud Monitoring"],
   devTools: ["Swagger", "Dbeaver", "Jetbrains", "Jira", "Trello", "Git", "GitHub", "GitLab", "Bitbucket"],
   networkSecurity: ["HTTP", "WebSocket", "DHCP", "DNS", "IP", "API RESTful", "SSH", "JWT", "OAuth", "Authentication", "Authorization", "CORS", "BCrypt", "RBAC", "Rate Limiting", "Input Validation"],
-  designArchitecture: ["Domain Driven Design", "Repository", "Adapter", "Strategy", "Builder", "Singleton", "Observer", "Microservices", "Layered Architecture", "Feature Based Architecture", "Hexagonal Architecture", "Event Driven Architecture"]
+  designArchitecture: ["Domain Driven Design", "Repository", "Adapter", "Strategy", "Builder", "Singleton", "Observer", "Saga Pattern", "Microservices", "Layered Architecture", "Feature Based Architecture", "Hexagonal Architecture", "Event Driven Architecture"]
 };
 
 export const education = [
