@@ -108,14 +108,17 @@
     "title": "Education",
     "description": "Continuous education in software development, cloud computing, and DevOps, combining official degrees with specialized programs to stay current in the tech landscape.",
     "entries": {
-"daw": {
-        "degree": "Higher Degree in Web Application Development"
+ "daw": {
+        "degree": "Higher Degree in Web Application Development",
+        "description": "Web development fundamentals: HTML, CSS, JavaScript, Java, PHP, MySQL and MongoDB as database engines, and agile methodologies. First contact with frameworks like Symfony and Bootstrap."
       },
       "devops-cloud": {
-        "degree": "Advanced DevOps & Cloud Program"
+        "degree": "Advanced DevOps & Cloud Program",
+        "description": "Cloud infrastructure with AWS and Azure, infrastructure as code with Terraform, Ansible, and Jenkins, CI/CD pipelines, containerization with Docker and Kubernetes, monitoring, and cloud security."
       },
       "dam": {
-        "degree": "Higher Degree in Multiplatform Application Development"
+        "degree": "Higher Degree in Multiplatform Application Development",
+        "description": "Multiplatform development: backend with Spring Boot and Java, Android applications with Java, PostgreSQL as database engine, JavaScript, HTML, CSS, ERP, Python, and version control with Git."
       }
     }
   },

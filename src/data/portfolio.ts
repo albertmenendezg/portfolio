@@ -95,6 +95,7 @@ export const education = [
   {
     id: 1,
     degreeKey: "education.entries.dam.degree",
+    descriptionKey: "education.entries.dam.description",
     institution: "DigitechFP",
     startDate: new Date(Date.UTC(2025, 8, 1)),
     endDate: new Date(Date.UTC(2026, 5, 1)),
@@ -102,6 +103,7 @@ export const education = [
   {
     id: 2,
     degreeKey: "education.entries.devops-cloud.degree",
+    descriptionKey: "education.entries.devops-cloud.description",
     institution: "UNIR",
     startDate: new Date(Date.UTC(2024, 2, 1)),
     endDate: new Date(Date.UTC(2025, 10, 1)),
@@ -109,6 +111,7 @@ export const education = [
   {
     id: 3,
     degreeKey: "education.entries.daw.degree",
+    descriptionKey: "education.entries.daw.description",
     institution: "STUCOM",
     startDate: new Date(Date.UTC(2020, 8, 1)),
     endDate: new Date(Date.UTC(2022, 5, 1)),

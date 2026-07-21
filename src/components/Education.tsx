@@ -76,6 +76,11 @@ export default function Education() {
                       </span>
                     </div>
                     <p className="text-emerald-600 dark:text-emerald-400 text-sm">{item.institution}</p>
+                    {item.descriptionKey && (
+                      <p className="text-gray-600 dark:text-gray-400 text-sm mt-2">
+                        {t(item.descriptionKey)}
+                      </p>
+                    )}
                   </motion.div>
                 </div>
               </motion.div>

@@ -109,13 +109,16 @@
     "description": "Formación continua en desarrollo de software, cloud computing y DevOps, combinando estudios oficiales con programas especializados para mantenerse actualizado en el mercado tecnológico.",
     "entries": {
       "daw": {
-        "degree": "Grado Superior en Desarrollo de Aplicaciones Web"
+        "degree": "Grado Superior en Desarrollo de Aplicaciones Web",
+        "description": "Fundamentos del desarrollo web: HTML, CSS, JavaScript, Java, PHP, MySQL y MongoDB como motores de bases de datos, y metodologías ágiles. Primer contacto con frameworks como Symfony y Bootstrap."
       },
       "devops-cloud": {
-        "degree": "Programa Avanzado DevOps & Cloud"
+        "degree": "Programa Avanzado DevOps & Cloud",
+        "description": "Infraestructura cloud con AWS y Azure, automatización con Terraform, Ansible y Jenkins, pipelines CI/CD, contenedores con Docker y Kubernetes, monitorización y seguridad en la nube."
       },
       "dam": {
-        "degree": "Grado Superior en Desarrollo de Aplicaciones Multiplataforma"
+        "degree": "Grado Superior en Desarrollo de Aplicaciones Multiplataforma",
+        "description": "Desarrollo multiplataforma: backend con Spring Boot y Java, aplicaciones Android con Java, PostgreSQL como motor de bases de datos, JavaScript, HTML, CSS, ERP, Python y control de versiones con Git."
       }
     }
   },
