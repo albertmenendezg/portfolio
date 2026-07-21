@@ -5,7 +5,7 @@ import { personalInfo, skills } from "@/data/portfolio";
 import { useTranslation } from "react-i18next";
 import {
   Code2, Box, Database, Cloud, Wrench, TestTube2,
-  Puzzle, Terminal, Sparkles
+  Puzzle, Terminal, Sparkles, GitBranch, ArrowLeftRight, BarChart3
 } from "lucide-react";
 
 const skillCategoriesKeys = [
@@ -17,7 +17,9 @@ const skillCategoriesKeys = [
   { key: "tools", items: skills.tools, color: "text-pink-600 dark:text-pink-400", bg: "bg-pink-500/10", icon: Wrench },
   { key: "testing", items: skills.testing, color: "text-yellow-600 dark:text-yellow-400", bg: "bg-yellow-500/10", icon: TestTube2 },
   { key: "architectures", items: skills.architectures, color: "text-cyan-600 dark:text-cyan-400", bg: "bg-cyan-500/10", icon: Puzzle },
-  { key: "other", items: skills.other, color: "text-red-600 dark:text-red-400", bg: "bg-red-500/10", icon: Terminal },
+  { key: "versionControl", items: skills.versionControl, color: "text-red-600 dark:text-red-400", bg: "bg-red-500/10", icon: GitBranch },
+  { key: "messageBrokers", items: skills.messageBrokers, color: "text-amber-600 dark:text-amber-400", bg: "bg-amber-500/10", icon: ArrowLeftRight },
+  { key: "monitoring", items: skills.monitoring, color: "text-rose-600 dark:text-rose-400", bg: "bg-rose-500/10", icon: BarChart3 },
 ];
 
 export default function Skills() {

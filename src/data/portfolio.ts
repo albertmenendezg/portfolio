@@ -82,13 +82,15 @@ export const experience = [
 export const skills = {
   languages: ["Java", "JavaScript", "TypeScript", "Go", "Python", "PHP"],
   frameworks: ["SpringBoot", "Node.js", "NestJS", "React", "Next.js", "Symfony"],
-  databases: ["MySQL", "PostgresSQL", "Redis", "MongoDB"],
-  devops: ["Docker", "Kubernetes", "AWS", "GCP", "Terraform", "GitLab CI", "GitHub Actions", "Bitbucket pipelines"],
+  databases: ["MySQL", "PostgreSQL", "Redis", "MongoDB"],
+  devops: ["Docker", "Kubernetes", "AWS", "GCP", "Terraform", "GitLab CI", "GitHub Actions", "Bitbucket pipelines", "Linux"],
   tools: ["Postman", "Swagger", "Dbeaver", "Jetbrains", "Jira", "Trello"],
   testing: ["JUnit", "Jest", "Mockito", "Cucumber", "PHPUnit"],
   architectures: [ "Microservices", "Domain Driven Design", "Hexagonal Architecture", "Event Driven Architecture"],
-  ai: ["Prompt Engineering", "Agents", "MCP", "Skills", "Codex", "Claude Code", "Opencode", "Ollama"],
-  other: ["Git", "GitHub", "GitLab", "Bitbucket", "Linux", "Grafana", "RabbitMQ", "Kafka"]
+  ai: ["Prompt Engineering", "Agents", "MCP", "Codex", "Claude Code", "Opencode", "Ollama"],
+  versionControl: ["Git", "GitHub", "GitLab", "Bitbucket"],
+  messageBrokers: ["RabbitMQ", "Kafka"],
+  monitoring: ["Grafana"]
 };
 
 export const education = [

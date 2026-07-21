@@ -133,7 +133,9 @@
     "testing": "Testing",
     "architectures": "Arquitecturas",
     "ai": "IA",
-    "other": "Otros"
+    "versionControl": "Control de Versiones",
+    "messageBrokers": "Brokers de Mensajería",
+    "monitoring": "Monitorización"
   },
   "certifications": {
     "title": "Certificaciones",
