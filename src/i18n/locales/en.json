@@ -129,16 +129,12 @@
     "frameworks": "Frameworks",
     "databases": "Databases",
     "devops": "DevOps",
-    "tools": "Tools",
     "testing": "Testing",
-    "architectures": "Architectures",
-    "designPatterns": "Design Patterns",
     "ai": "AI",
-    "versionControl": "Version Control",
-    "messageBrokers": "Message Brokers",
-    "monitoring": "Monitoring",
-    "protocols": "Protocols & Networking",
-    "security": "Security"
+    "infrastructure": "Infrastructure & Observability",
+    "devTools": "Development Tools",
+    "networkSecurity": "Network & Security",
+    "designArchitecture": "Design & Architecture"
   },
   "certifications": {
     "title": "Certifications",

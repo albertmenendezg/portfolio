@@ -84,16 +84,12 @@ export const skills = {
   frameworks: ["SpringBoot", "Node.js", "NestJS", "React", "Next.js", "Symfony"],
   databases: ["MySQL", "PostgreSQL", "Redis", "MongoDB"],
   devops: ["Docker", "Kubernetes", "AWS", "GCP", "Terraform", "GitLab CI", "GitHub Actions", "Bitbucket pipelines", "Linux"],
-  tools: ["Swagger", "Dbeaver", "Jetbrains", "Jira", "Trello"],
   testing: ["Unit Testing", "Integration Testing", "E2E Testing", "TDD", "JUnit", "Jest", "Mockito", "Cucumber", "PHPUnit", "Postman", "Playwright", "SonarQube"],
-  architectures: ["Microservices", "Layered Architecture", "Feature Based Architecture", "Hexagonal Architecture", "Event Driven Architecture"],
-  designPatterns: ["Domain Driven Design", "Repository", "Adapter", "Strategy", "Builder", "Singleton", "Observer"],
   ai: ["Prompt Engineering", "Agents", "MCP", "Codex", "Claude Code", "Opencode", "Ollama"],
-  versionControl: ["Git", "GitHub", "GitLab", "Bitbucket"],
-  messageBrokers: ["RabbitMQ", "Kafka", "Redis", "AWS SQS", "AWS SNS", "GCP Pub/Sub"],
-  monitoring: ["Grafana", "Prometheus", "OpenTelemetry", "AWS CloudWatch", "GCP Cloud Monitoring"],
-  protocols: ["HTTP", "WebSocket", "DHCP", "DNS", "IP", "API RESTful", "SSH"],
-  security: ["JWT", "OAuth", "Authentication", "Authorization", "CORS", "BCrypt", "RBAC", "Rate Limiting", "Input Validation"]
+  infrastructure: ["RabbitMQ", "Kafka", "Redis", "AWS SQS", "AWS SNS", "GCP Pub/Sub", "Grafana", "Prometheus", "OpenTelemetry", "AWS CloudWatch", "GCP Cloud Monitoring"],
+  devTools: ["Swagger", "Dbeaver", "Jetbrains", "Jira", "Trello", "Git", "GitHub", "GitLab", "Bitbucket"],
+  networkSecurity: ["HTTP", "WebSocket", "DHCP", "DNS", "IP", "API RESTful", "SSH", "JWT", "OAuth", "Authentication", "Authorization", "CORS", "BCrypt", "RBAC", "Rate Limiting", "Input Validation"],
+  designArchitecture: ["Domain Driven Design", "Repository", "Adapter", "Strategy", "Builder", "Singleton", "Observer", "Microservices", "Layered Architecture", "Feature Based Architecture", "Hexagonal Architecture", "Event Driven Architecture"]
 };
 
 export const education = [
