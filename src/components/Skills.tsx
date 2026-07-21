@@ -5,7 +5,7 @@ import { personalInfo, skills } from "@/data/portfolio";
 import { useTranslation } from "react-i18next";
 import {
   Code2, Box, Database, Cloud, Wrench, TestTube2,
-  Puzzle, Terminal, Sparkles, GitBranch, ArrowLeftRight, BarChart3
+  Puzzle, Sparkles, GitBranch, ArrowLeftRight, BarChart3, Network, Shield, Layers
 } from "lucide-react";
 
 const skillCategoriesKeys = [
@@ -14,12 +14,15 @@ const skillCategoriesKeys = [
   { key: "ai", items: skills.ai, color: "text-violet-600 dark:text-violet-400", bg: "bg-violet-500/10", icon: Sparkles },
   { key: "devops", items: skills.devops, color: "text-orange-600 dark:text-orange-400", bg: "bg-orange-500/10", icon: Cloud },
   { key: "databases", items: skills.databases, color: "text-purple-600 dark:text-purple-400", bg: "bg-purple-500/10", icon: Database },
-  { key: "tools", items: skills.tools, color: "text-pink-600 dark:text-pink-400", bg: "bg-pink-500/10", icon: Wrench },
-  { key: "testing", items: skills.testing, color: "text-yellow-600 dark:text-yellow-400", bg: "bg-yellow-500/10", icon: TestTube2 },
-  { key: "architectures", items: skills.architectures, color: "text-cyan-600 dark:text-cyan-400", bg: "bg-cyan-500/10", icon: Puzzle },
-  { key: "versionControl", items: skills.versionControl, color: "text-red-600 dark:text-red-400", bg: "bg-red-500/10", icon: GitBranch },
   { key: "messageBrokers", items: skills.messageBrokers, color: "text-amber-600 dark:text-amber-400", bg: "bg-amber-500/10", icon: ArrowLeftRight },
+  { key: "tools", items: skills.tools, color: "text-pink-600 dark:text-pink-400", bg: "bg-pink-500/10", icon: Wrench },
+  { key: "versionControl", items: skills.versionControl, color: "text-red-600 dark:text-red-400", bg: "bg-red-500/10", icon: GitBranch },
+  { key: "testing", items: skills.testing, color: "text-yellow-600 dark:text-yellow-400", bg: "bg-yellow-500/10", icon: TestTube2 },
   { key: "monitoring", items: skills.monitoring, color: "text-rose-600 dark:text-rose-400", bg: "bg-rose-500/10", icon: BarChart3 },
+  { key: "protocols", items: skills.protocols, color: "text-indigo-600 dark:text-indigo-400", bg: "bg-indigo-500/10", icon: Network },
+  { key: "security", items: skills.security, color: "text-red-600 dark:text-red-400", bg: "bg-red-500/10", icon: Shield },
+  { key: "designPatterns", items: skills.designPatterns, color: "text-cyan-600 dark:text-cyan-400", bg: "bg-cyan-500/10", icon: Puzzle },
+  { key: "architectures", items: skills.architectures, color: "text-teal-600 dark:text-teal-400", bg: "bg-teal-500/10", icon: Layers },
 ];
 
 export default function Skills() {

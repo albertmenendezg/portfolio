@@ -132,10 +132,13 @@
     "tools": "Tools",
     "testing": "Testing",
     "architectures": "Architectures",
+    "designPatterns": "Design Patterns",
     "ai": "AI",
     "versionControl": "Version Control",
     "messageBrokers": "Message Brokers",
-    "monitoring": "Monitoring"
+    "monitoring": "Monitoring",
+    "protocols": "Protocols & Networking",
+    "security": "Security"
   },
   "certifications": {
     "title": "Certifications",
