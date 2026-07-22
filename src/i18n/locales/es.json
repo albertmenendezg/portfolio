@@ -152,6 +152,15 @@
         "lambda": "Función Lambda en Go invocada mediante API Gateway, usando SES para el envío de correos del formulario de contacto",
         "cv": "CV publicado automáticamente al bucket assets-albertmenendez S3 mediante GitHub Actions"
       }
+    },
+    "urlShortener": {
+      "name": "Acortador de URLs",
+      "description": "Acortador de URLs serverless construido con AWS Lambda, API Gateway y DynamoDB. El backend, escrito en Node.js/TypeScript, gestiona el acortamiento y redirección de URLs mediante funciones Lambda expuestas a través de API Gateway. El cliente React, alojado en S3 y distribuido mediante CloudFront, proporciona una interfaz limpia para crear y gestionar URLs acortadas.",
+      "liveSite": "Sitio Web",
+      "highlights": {
+        "lambda": "Funciones Lambda en Node.js/TypeScript con API Gateway y DynamoDB para acortar y redirigir URLs",
+        "client": "Cliente React alojado en S3 y servido vía CloudFront con dominio personalizado en Route 53"
+      }
     }
   },
   "contact": {

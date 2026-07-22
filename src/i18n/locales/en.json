@@ -152,6 +152,15 @@
         "lambda": "Go-based Lambda function triggered via API Gateway, using SES for contact form email processing",
         "cv": "CV automatically published to assets-albertmenendez S3 bucket via GitHub Actions"
       }
+    },
+    "urlShortener": {
+      "name": "URL Shortener",
+      "description": "Serverless URL shortener built with AWS Lambda, API Gateway, and DynamoDB. The backend, written in Node.js/TypeScript, handles URL shortening and redirection through Lambda functions fronted by API Gateway. The React client, hosted on S3 and distributed via CloudFront, provides a clean interface for creating and managing shortened URLs.",
+      "liveSite": "Live Site",
+      "highlights": {
+        "lambda": "Node.js/TypeScript Lambda functions with API Gateway and DynamoDB for URL shortening and redirection",
+        "client": "React client hosted on S3 and served via CloudFront with custom domain on Route 53"
+      }
     }
   },
   "contact": {

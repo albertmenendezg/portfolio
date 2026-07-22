@@ -133,6 +133,19 @@ export const projects = [
     links: {
       live: "https://albertmenendez.com"
     }
+  },
+  {
+    id: 2,
+    nameKey: "projects.urlShortener.name",
+    descriptionKey: "projects.urlShortener.description",
+    highlights: [
+      { textKey: "projects.urlShortener.highlights.lambda", link: "https://github.com/albertmenendezg/url-shortener" },
+      { textKey: "projects.urlShortener.highlights.client", link: "https://github.com/albertmenendezg/url-shortener-client" },
+    ],
+    tech: ["AWS Lambda", "API Gateway", "DynamoDB", "React", "TypeScript", "GitHub Actions", "S3", "CloudFront", "Route 53"],
+    links: {
+      live: "https://url-shortener.albertmenendez.com"
+    }
   }
 ]
 
