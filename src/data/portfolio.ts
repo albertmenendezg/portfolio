@@ -84,12 +84,14 @@ export const skills = {
   frameworks: ["SpringBoot", "Node.js", "NestJS", "React", "Next.js", "Symfony"],
   databases: ["MySQL", "PostgreSQL", "Redis", "MongoDB"],
   devops: ["Docker", "Kubernetes", "AWS", "GCP", "Terraform", "GitLab CI", "GitHub Actions", "Bitbucket pipelines", "Linux"],
-  testing: ["Unit Testing", "Integration Testing", "E2E Testing", "TDD", "JUnit", "Jest", "Mockito", "Cucumber", "PHPUnit", "Postman", "Playwright", "SonarQube"],
+  testing: ["Unit Testing", "Integration Testing", "E2E Testing", "TDD", "JUnit", "Jest", "Mockito", "Cucumber", "PHPUnit", "Postman", "SonarQube"],
   ai: ["Prompt Engineering", "Agents", "MCP", "Codex", "Claude Code", "Opencode", "Ollama"],
-  infrastructure: ["RabbitMQ", "Kafka", "Redis", "AWS SQS", "AWS SNS", "GCP Pub/Sub", "Grafana", "Prometheus", "OpenTelemetry", "AWS CloudWatch", "GCP Cloud Monitoring"],
+  infrastructure: ["RabbitMQ", "Kafka", "Redis", "Grafana", "Prometheus", "OpenTelemetry", "AWS CloudWatch"],
   devTools: ["Swagger", "Dbeaver", "Jetbrains", "Jira", "Trello", "Git", "GitHub", "GitLab", "Bitbucket"],
-  networkSecurity: ["HTTP", "WebSocket", "DHCP", "DNS", "IP", "API RESTful", "SSH", "JWT", "OAuth", "Authentication", "Authorization", "CORS", "BCrypt", "RBAC", "Rate Limiting", "Input Validation"],
-  designArchitecture: ["Domain Driven Design", "Repository", "Adapter", "Strategy", "Builder", "Singleton", "Observer", "Saga Pattern", "Microservices", "Layered Architecture", "Feature Based Architecture", "Hexagonal Architecture", "Event Driven Architecture"]
+  network: ["HTTP", "WebSocket", "DHCP", "DNS", "IP", "API RESTful", "SSH"],
+  security: ["JWT", "OAuth", "Authentication", "Authorization", "CORS", "BCrypt", "RBAC", "Rate Limiting", "Input Validation"],
+  designPatterns: ["Domain Driven Design", "Repository", "Adapter", "Strategy", "Builder", "Singleton", "Observer", "Saga"],
+  architecture: ["Microservices", "Layered Architecture", "Feature Based Architecture", "Hexagonal Architecture", "Event Driven Architecture"]
 };
 
 export const education = [
@@ -133,19 +135,6 @@ export const projects = [
     links: {
       live: "https://albertmenendez.com"
     }
-  },
-  {
-    id: 2,
-    nameKey: "projects.urlShortener.name",
-    descriptionKey: "projects.urlShortener.description",
-    highlights: [
-      { textKey: "projects.urlShortener.highlights.lambda", link: "https://github.com/albertmenendezg/url-shortener" },
-      { textKey: "projects.urlShortener.highlights.client", link: "https://github.com/albertmenendezg/url-shortener-client" },
-    ],
-    tech: ["AWS Lambda", "API Gateway", "DynamoDB", "React", "TypeScript", "GitHub Actions", "S3", "CloudFront", "Route 53"],
-    links: {
-      live: "https://url-shortener.albertmenendez.com"
-    }
   }
 ]
 
@@ -155,6 +144,7 @@ export const certifications = [
     name: "AWS Cloud Practitioner",
     issuer: "Amazon Web Services",
     year: "2026",
+    image: "/images/badges/aws-cloud-practitioner.png",
     link: "https://www.credly.com/badges/43118d9c-cb1c-4712-8db7-2a5b366989dc"
-  }
+  },
 ];

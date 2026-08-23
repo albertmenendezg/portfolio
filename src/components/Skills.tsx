@@ -5,7 +5,8 @@ import { personalInfo, skills } from "@/data/portfolio";
 import { useTranslation } from "react-i18next";
 import {
   Code2, Box, Database, Cloud, Wrench, TestTube2,
-  Sparkles, ArrowLeftRight, Shield, Layers
+  Sparkles, Server, Shield, Puzzle,
+  Network, Building2
 } from "lucide-react";
 
 const skillCategoriesKeys = [
@@ -15,10 +16,12 @@ const skillCategoriesKeys = [
   { key: "devops", items: skills.devops, color: "text-orange-600 dark:text-orange-400", bg: "bg-orange-500/10", icon: Cloud },
   { key: "databases", items: skills.databases, color: "text-purple-600 dark:text-purple-400", bg: "bg-purple-500/10", icon: Database },
   { key: "testing", items: skills.testing, color: "text-yellow-600 dark:text-yellow-400", bg: "bg-yellow-500/10", icon: TestTube2 },
-  { key: "infrastructure", items: skills.infrastructure, color: "text-amber-600 dark:text-amber-400", bg: "bg-amber-500/10", icon: ArrowLeftRight },
+  { key: "infrastructure", items: skills.infrastructure, color: "text-amber-600 dark:text-amber-400", bg: "bg-amber-500/10", icon: Server },
   { key: "devTools", items: skills.devTools, color: "text-pink-600 dark:text-pink-400", bg: "bg-pink-500/10", icon: Wrench },
-  { key: "networkSecurity", items: skills.networkSecurity, color: "text-red-600 dark:text-red-400", bg: "bg-red-500/10", icon: Shield },
-  { key: "designArchitecture", items: skills.designArchitecture, color: "text-teal-600 dark:text-teal-400", bg: "bg-teal-500/10", icon: Layers },
+  { key: "network", items: skills.network, color: "text-sky-600 dark:text-sky-400", bg: "bg-sky-500/10", icon: Network },
+  { key: "security", items: skills.security, color: "text-red-600 dark:text-red-400", bg: "bg-red-500/10", icon: Shield },
+  { key: "designPatterns", items: skills.designPatterns, color: "text-teal-600 dark:text-teal-400", bg: "bg-teal-500/10", icon: Puzzle },
+  { key: "architecture", items: skills.architecture, color: "text-indigo-600 dark:text-indigo-400", bg: "bg-indigo-500/10", icon: Building2 },
 ];
 
 export default function Skills() {

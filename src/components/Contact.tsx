@@ -166,7 +166,7 @@ export default function Contact() {
               disabled={status === "loading" || status === "success"}
               whileHover={{ scale: 1.01 }}
               whileTap={{ scale: 0.99 }}
-              className="w-full px-6 py-3 bg-emerald-500 hover:bg-emerald-600 disabled:bg-emerald-600/50 disabled:cursor-not-allowed text-white font-semibold rounded-lg transition-colors flex items-center justify-center"
+              className="w-full px-6 py-3 bg-emerald-500 hover:bg-emerald-600 disabled:bg-emerald-600/50 disabled:cursor-not-allowed cursor-pointer text-white font-semibold rounded-lg transition-colors flex items-center justify-center"
             >
               {status === "loading" ? (
                 <>

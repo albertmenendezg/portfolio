@@ -128,13 +128,15 @@
     "languages": "Languages",
     "frameworks": "Frameworks",
     "databases": "Databases",
-    "devops": "DevOps",
+    "devops": "DevOps & Cloud",
     "testing": "Testing",
     "ai": "AI",
     "infrastructure": "Infrastructure & Observability",
     "devTools": "Development Tools",
-    "networkSecurity": "Network & Security",
-    "designArchitecture": "Design & Architecture"
+    "network": "Network",
+    "security": "Security",
+    "designPatterns": "Design Patterns",
+    "architecture": "Software Architecture"
   },
   "certifications": {
     "title": "Certifications",
