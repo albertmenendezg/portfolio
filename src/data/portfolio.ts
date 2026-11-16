@@ -18,12 +18,20 @@ export const experience = [
     positionKey: "experience.nter.position",
     projects: [
       {
+        nameKey: "experience.nter.projects.people-planner.name",
+        descriptionKey: "experience.nter.projects.people-planner.description",
+        tasksKey: "experience.nter.projects.people-planner.tasks",
+        startDate: new Date(Date.UTC(2025, 8, 1)),
+        endDate: null,
+        tech: ["Java", "Spring Boot", "Maven", "RabbitMQ", "PostgreSQL", "Microsoft Azure", "Grafana", "SQL", "OpenSpec", "GitHub Copilot"]
+      },
+      {
         nameKey: "experience.nter.projects.oysho.name",
         descriptionKey: "experience.nter.projects.oysho.description",
         tasksKey: "experience.nter.projects.oysho.tasks",
-        startDate: new Date(Date.UTC(2026, 3, 1)),
-        endDate: null,
-        tech: ["Java", "SpringBoot", "React", "Kafka", "Docker", "AWS", "GitHub Actions", "Agentic AI", "Claude Code", "Codex"]
+        startDate: new Date(Date.UTC(2026, 4, 1)),
+        endDate: new Date(Date.UTC(2026, 7, 1)),
+        tech: ["React", "GitHub Actions", "Agentic AI", "Claude Code", "Opencode"]
       },
       {
         nameKey: "experience.nter.projects.codebench.name",

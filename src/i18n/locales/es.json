@@ -36,15 +36,28 @@
     "nter": {
       "position": "Ingeniero Backend",
       "projects": {
-        "oysho": {
-          "name": "Oysho",
-          "period": "Abr 2026 - Presente",
-          "description": "Backoffice interno para Oysho: migración de sistemas legacy a Java 25, Spring Boot 4 y React 19 con clean code, Kafka e IA Agéntica.",
+        "people-planner": {
+          "name": "People Planner",
+          "period": "Sep 2025 - Presente",
+          "description": "Planificador de empleados para Inditex, orientado a la gestión de necesidades, ausencias y tiendas. Participo como ingeniero backend en el equipo de People Planner.",
           "tasks": [
-            "Lideré la migración interna de sistemas legacy a Java 25, Spring Boot 4 y React 19.",
-            "Apliqué principios de clean code y arquitectura hexagonal para mejorar la mantenibilidad.",
-            "Implementé comunicación basada en eventos con Kafka.",
-            "Integré capacidades de IA Agéntica para automatizar flujos de trabajo."
+            "Participé en el desarrollo y testing de funcionalidades backend dentro del equipo.",
+            "Desarrollé microservicios con Spring Boot y Maven, orientados a eventos y síncronos.",
+            "Apliqué desarrollo guiado por especificaciones (SDD) con OpenSpec y agentes de IA como parte del flujo de trabajo.",
+            "Monitoricé servicios e infraestructura con Grafana.",
+            "Revisé y creé pull requests con apoyo de GitHub Copilot.",
+            "Realicé consultas a bases de datos en entornos de desarrollo, PRE y PRO.",
+            "Acompañé y di soporte a nuevos perfiles junior del equipo."
+          ]
+        },
+        "oysho": {
+          "name": "Oysho Backoffice",
+          "period": "May 2026 - Ago 2026",
+          "description": "Backoffice interno para Oysho: migración de sistemas legacy a React 19 y migración de componentes internos de Amiga (Inditex).",
+          "tasks": [
+            "Lideré la migración de sistemas legacy y componentes internos de Amiga (Inditex) a React 19.",
+            "Desarrollé una nueva interfaz de usuario (UI) y experiencia de usuario (UX) para el backoffice.",
+            "Implementé la subida de assets (imágenes, vídeos y audio) con autodescripciones generadas por IA y comunicación bidireccional mediante WebSockets."
           ]
         },
         "codebench": {
