@@ -43,6 +43,7 @@
           "tasks": [
             "Participé en el desarrollo y testing de funcionalidades backend dentro del equipo.",
             "Desarrollé microservicios con Spring Boot y Maven, orientados a eventos y síncronos.",
+            "Apliqué arquitectura hexagonal y DDD en el diseño y desarrollo de microservicios.",
             "Apliqué desarrollo guiado por especificaciones (SDD) con OpenSpec y agentes de IA como parte del flujo de trabajo.",
             "Monitoricé servicios e infraestructura con Grafana.",
             "Revisé y creé pull requests con apoyo de GitHub Copilot.",

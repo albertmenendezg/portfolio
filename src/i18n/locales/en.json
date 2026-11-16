@@ -43,6 +43,7 @@
           "tasks": [
             "Participated in backend feature development and testing within the team.",
             "Developed event-driven and synchronous microservices using Spring Boot and Maven.",
+            "Applied hexagonal architecture and DDD in the design and development of microservices.",
             "Applied spec-driven development (SDD) with OpenSpec and AI agents as part of the workflow.",
             "Monitored services and infrastructure with Grafana.",
             "Reviewed and created pull requests with GitHub Copilot.",

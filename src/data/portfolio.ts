@@ -70,7 +70,7 @@ export const experience = [
   },
   {
     id: 3,
-    company: "Foxize Cloud",
+    company: "Foxize",
     startDate: new Date(Date.UTC(2021, 8, 1)),
     endDate: new Date(Date.UTC(2022, 9, 1)),
     positionKey: "experience.foxize.position",
