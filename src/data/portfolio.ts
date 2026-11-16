@@ -23,7 +23,7 @@ export const experience = [
         tasksKey: "experience.nter.projects.people-planner.tasks",
         startDate: new Date(Date.UTC(2025, 8, 1)),
         endDate: null,
-        tech: ["Java", "Spring Boot", "Maven", "RabbitMQ", "PostgreSQL", "Microsoft Azure", "Grafana", "SQL", "OpenSpec", "GitHub Copilot"]
+        tech: ["Java", "Spring Boot", "Maven", "RabbitMQ", "PostgreSQL", "Microsoft Azure", "Grafana", "SQL", "OpenSpec", "GitHub Copilot", "Opencode"]
       },
       {
         nameKey: "experience.nter.projects.oysho.name",
