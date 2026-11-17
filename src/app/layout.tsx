@@ -7,9 +7,9 @@ import I18nProvider from "@/i18n/I18nProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Albert Menendez Gonzalez | Senior Backend, DevOps & AI Agentic Engineer",
+  title: "Albert Menendez Gonzalez | Backend, AI & Cloud Engineer",
   description:
-    "Senior Backend, DevOps & Agentic AI Engineer with 4+ years experience in Java, Go, TypeScript, SpringBoot, Node.js, Docker, Kubernetes, and cloud infrastructure.",
+    "Backend, AI & Cloud Engineer with 4+ years experience in Java, Go, TypeScript, SpringBoot, Node.js, Docker, Kubernetes, and cloud infrastructure.",
   icons: {
     icon: "/icon.svg",
   },
